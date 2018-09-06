@@ -15,8 +15,7 @@ numpy 1.15.t1
 readme
 comments
 select parents stochastically, rather than always choosing best
-use more pandas/numpy in the GA to speed up
 store progress against test as well as train data, for QA
 chart training results
 predict with some random samples of the data
-tune hyper parameters
+tune hyper parameters - maybe build a way to do this faster/in batches or something
