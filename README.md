@@ -3,8 +3,20 @@ SIT215 PBL Task 3
 
 DATA ATTRIBUTION: https://www.kaggle.com/mirichoi0218/insurance
 
+deps
 Python3.7.0
 pandas          0.23.4
 scikit-learn    0.19.2
 scipy-1.1.0
 numpy 1.15.t1
+
+# TODO
+
+readme
+comments
+select parents stochastically, rather than always choosing best
+use more pandas/numpy in the GA to speed up
+store progress against test as well as train data, for QA
+chart training results
+predict with some random samples of the data
+tune hyper parameters
