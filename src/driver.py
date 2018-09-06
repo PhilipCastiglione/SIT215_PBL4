@@ -29,12 +29,12 @@ class Driver:
 
         self.genetic_algorithm = GeneticAlgorithm(self.params, X_train, y_train, X_test, y_test)
         self.genetic_algorithm.fit()
-        self.genetic_algorithm.print_progress() # for debugging
-        # TODO: chart training results
+        # TODO: chart training results instead of using the debugging print method
+        self.genetic_algorithm.print_progress()
         # self.genetic_algorithm.progress
 
     def predict(self, _):
-        # TODO
+        # TODO implement
         pass
 
     # PRIVATE
