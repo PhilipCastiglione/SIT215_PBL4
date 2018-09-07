@@ -22,13 +22,19 @@ class GeneticAlgorithm:
     # PUBLIC
 
     def fit(self):
-        # cache fitnesses here for initial state
+        # calculate fitnesses here for initial state
         self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
         for i in range(self.generations):
             self._next_generation()
             self.generation += 1
             self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
             self._update_progress()
+
+    def predict(self, features):
+        best_chromosome_idx = self.fitnesses.idxmax()
+        best_chromosome = self.population.iloc[best_chromosome_idx].values[0]
+        predictions = np.dot(features, best_chromosome)
+        return predictions
 
     # for debugging
     def print_progress(self):
@@ -46,10 +52,10 @@ class GeneticAlgorithm:
         offspring = self._breed(parents)
         self.population = pd.concat([middle, parents, offspring], ignore_index=True)
 
+    # TODO: (optional) select parents stochastically, based on fitness, rather than just taking the best ones
     def _divide_population(self):
         parent_count = int(len(self.population) / self.breeding_ratio)
 
-        # TODO: (optional) select parents stochastically, based on fitness, rather than just taking the best ones
         sorted_fitnesses = self.fitnesses.sort_values('charges')
         parents = self.population[sorted_fitnesses[:parent_count].index]
         middle = self.population[sorted_fitnesses[parent_count:-parent_count].index]

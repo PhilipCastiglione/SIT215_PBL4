@@ -33,9 +33,26 @@ class Driver:
         self.genetic_algorithm.print_progress()
         # self.genetic_algorithm.progress
 
-    def predict(self, _):
-        # TODO implement
-        pass
+    # generate predictions for a set of input values, transforming input to match
+    # the feature set representation of a chromosome, and converting the prediction
+    # back to the original scale
+    def predict(self, inputs):
+        raw_features = pd.DataFrame(inputs, columns=inputs.columns.drop('charges'))
+        features = self._transform_features(raw_features, self.mappings, self.feature_scalers, fit=False)
+
+        normalized_predictions = self.genetic_algorithm.predict(features)
+        denormalized_predictions = [self._denormalize(p, self.label_scaler[0]) for p in normalized_predictions]
+        predictions = np.array(denormalized_predictions)
+
+        labels = np.array(inputs.charges)
+
+        diffs = (predictions - labels) / labels * 100
+
+        for i in range(inputs.shape[0]):
+            prediction = str(int(predictions[i]))
+            label = str(int(labels[i]))
+            diff = str(int(diffs[i]))
+            print("record {}\t prediction: {}\tactual: {}\tdifference: {}%".format(i + 1, prediction.rjust(8), label.rjust(8), diff.rjust(5)))
 
     # PRIVATE
 
@@ -46,16 +63,16 @@ class Driver:
         return [(to_map(dataframe[col].unique()), col) for col in category_columns]
 
     # normalize continuous data to make training more efficient ands weights similar
-    def _normalize(self, series, columns, scaler):
-        return scaler.fit_transform(series[columns])
+    def _normalize(self, series, columns, scaler, fit=True):
+        return scaler.fit_transform(series[columns]) if fit else scaler.transform(series[columns])
 
     # denormalize using a fitted scaler to convert values back to the domain
-    def _denormalize(self, series, columns, scaler):
-        return scaler.inverse_transform(series[columns])
+    def _denormalize(self, value, scaler):
+        return scaler.inverse_transform(value)[0][0]
 
     # transform our features, mapping categorical columns and scaling continuous values
     # NB: children is a low valued discrete feature so we leave it alone
-    def _transform_features(self, dataframe, mappings, scalers):
+    def _transform_features(self, dataframe, mappings, scalers, fit=True):
         transformed_df = pd.DataFrame(dataframe, columns=['children'])
 
         for mapping, name in mappings:
@@ -63,7 +80,7 @@ class Driver:
                 transformed_df[name + str(i)] = dataframe[name].apply(lambda x: int(mapping[x] == i))
 
         for scaler, name in scalers:
-            transformed_df[name] = self._normalize(dataframe, [name], scaler)
+            transformed_df[name] = self._normalize(dataframe, [name], scaler, fit=fit)
 
         return transformed_df
 

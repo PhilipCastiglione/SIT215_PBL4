@@ -17,5 +17,4 @@ deps
 - select parents stochastically, rather than always choosing best
 - store progress against test as well as train data, for QA
 - chart training results
-- predict with some random samples of the data
 - tune hyper parameters - maybe build a way to do this faster/in batches or something

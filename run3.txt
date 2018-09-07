@@ -1,0 +1,2011 @@
+{'generations': 1000, 'population_size': 200, 'breeding_rate': 0.3, 'crossover_rate': 0.8, 'mutation_rate': 0.1, 'mutation_range': 0.2}
+Generation: 1/1000
+Generation: 2/1000
+Generation: 3/1000
+Generation: 4/1000
+Generation: 5/1000
+Generation: 6/1000
+Generation: 7/1000
+Generation: 8/1000
+Generation: 9/1000
+Generation: 10/1000
+Generation: 11/1000
+Generation: 12/1000
+Generation: 13/1000
+Generation: 14/1000
+Generation: 15/1000
+Generation: 16/1000
+Generation: 17/1000
+Generation: 18/1000
+Generation: 19/1000
+Generation: 20/1000
+Generation: 21/1000
+Generation: 22/1000
+Generation: 23/1000
+Generation: 24/1000
+Generation: 25/1000
+Generation: 26/1000
+Generation: 27/1000
+Generation: 28/1000
+Generation: 29/1000
+Generation: 30/1000
+Generation: 31/1000
+Generation: 32/1000
+Generation: 33/1000
+Generation: 34/1000
+Generation: 35/1000
+Generation: 36/1000
+Generation: 37/1000
+Generation: 38/1000
+Generation: 39/1000
+Generation: 40/1000
+Generation: 41/1000
+Generation: 42/1000
+Generation: 43/1000
+Generation: 44/1000
+Generation: 45/1000
+Generation: 46/1000
+Generation: 47/1000
+Generation: 48/1000
+Generation: 49/1000
+Generation: 50/1000
+Generation: 51/1000
+Generation: 52/1000
+Generation: 53/1000
+Generation: 54/1000
+Generation: 55/1000
+Generation: 56/1000
+Generation: 57/1000
+Generation: 58/1000
+Generation: 59/1000
+Generation: 60/1000
+Generation: 61/1000
+Generation: 62/1000
+Generation: 63/1000
+Generation: 64/1000
+Generation: 65/1000
+Generation: 66/1000
+Generation: 67/1000
+Generation: 68/1000
+Generation: 69/1000
+Generation: 70/1000
+Generation: 71/1000
+Generation: 72/1000
+Generation: 73/1000
+Generation: 74/1000
+Generation: 75/1000
+Generation: 76/1000
+Generation: 77/1000
+Generation: 78/1000
+Generation: 79/1000
+Generation: 80/1000
+Generation: 81/1000
+Generation: 82/1000
+Generation: 83/1000
+Generation: 84/1000
+Generation: 85/1000
+Generation: 86/1000
+Generation: 87/1000
+Generation: 88/1000
+Generation: 89/1000
+Generation: 90/1000
+Generation: 91/1000
+Generation: 92/1000
+Generation: 93/1000
+Generation: 94/1000
+Generation: 95/1000
+Generation: 96/1000
+Generation: 97/1000
+Generation: 98/1000
+Generation: 99/1000
+Generation: 100/1000
+Generation: 101/1000
+Generation: 102/1000
+Generation: 103/1000
+Generation: 104/1000
+Generation: 105/1000
+Generation: 106/1000
+Generation: 107/1000
+Generation: 108/1000
+Generation: 109/1000
+Generation: 110/1000
+Generation: 111/1000
+Generation: 112/1000
+Generation: 113/1000
+Generation: 114/1000
+Generation: 115/1000
+Generation: 116/1000
+Generation: 117/1000
+Generation: 118/1000
+Generation: 119/1000
+Generation: 120/1000
+Generation: 121/1000
+Generation: 122/1000
+Generation: 123/1000
+Generation: 124/1000
+Generation: 125/1000
+Generation: 126/1000
+Generation: 127/1000
+Generation: 128/1000
+Generation: 129/1000
+Generation: 130/1000
+Generation: 131/1000
+Generation: 132/1000
+Generation: 133/1000
+Generation: 134/1000
+Generation: 135/1000
+Generation: 136/1000
+Generation: 137/1000
+Generation: 138/1000
+Generation: 139/1000
+Generation: 140/1000
+Generation: 141/1000
+Generation: 142/1000
+Generation: 143/1000
+Generation: 144/1000
+Generation: 145/1000
+Generation: 146/1000
+Generation: 147/1000
+Generation: 148/1000
+Generation: 149/1000
+Generation: 150/1000
+Generation: 151/1000
+Generation: 152/1000
+Generation: 153/1000
+Generation: 154/1000
+Generation: 155/1000
+Generation: 156/1000
+Generation: 157/1000
+Generation: 158/1000
+Generation: 159/1000
+Generation: 160/1000
+Generation: 161/1000
+Generation: 162/1000
+Generation: 163/1000
+Generation: 164/1000
+Generation: 165/1000
+Generation: 166/1000
+Generation: 167/1000
+Generation: 168/1000
+Generation: 169/1000
+Generation: 170/1000
+Generation: 171/1000
+Generation: 172/1000
+Generation: 173/1000
+Generation: 174/1000
+Generation: 175/1000
+Generation: 176/1000
+Generation: 177/1000
+Generation: 178/1000
+Generation: 179/1000
+Generation: 180/1000
+Generation: 181/1000
+Generation: 182/1000
+Generation: 183/1000
+Generation: 184/1000
+Generation: 185/1000
+Generation: 186/1000
+Generation: 187/1000
+Generation: 188/1000
+Generation: 189/1000
+Generation: 190/1000
+Generation: 191/1000
+Generation: 192/1000
+Generation: 193/1000
+Generation: 194/1000
+Generation: 195/1000
+Generation: 196/1000
+Generation: 197/1000
+Generation: 198/1000
+Generation: 199/1000
+Generation: 200/1000
+Generation: 201/1000
+Generation: 202/1000
+Generation: 203/1000
+Generation: 204/1000
+Generation: 205/1000
+Generation: 206/1000
+Generation: 207/1000
+Generation: 208/1000
+Generation: 209/1000
+Generation: 210/1000
+Generation: 211/1000
+Generation: 212/1000
+Generation: 213/1000
+Generation: 214/1000
+Generation: 215/1000
+Generation: 216/1000
+Generation: 217/1000
+Generation: 218/1000
+Generation: 219/1000
+Generation: 220/1000
+Generation: 221/1000
+Generation: 222/1000
+Generation: 223/1000
+Generation: 224/1000
+Generation: 225/1000
+Generation: 226/1000
+Generation: 227/1000
+Generation: 228/1000
+Generation: 229/1000
+Generation: 230/1000
+Generation: 231/1000
+Generation: 232/1000
+Generation: 233/1000
+Generation: 234/1000
+Generation: 235/1000
+Generation: 236/1000
+Generation: 237/1000
+Generation: 238/1000
+Generation: 239/1000
+Generation: 240/1000
+Generation: 241/1000
+Generation: 242/1000
+Generation: 243/1000
+Generation: 244/1000
+Generation: 245/1000
+Generation: 246/1000
+Generation: 247/1000
+Generation: 248/1000
+Generation: 249/1000
+Generation: 250/1000
+Generation: 251/1000
+Generation: 252/1000
+Generation: 253/1000
+Generation: 254/1000
+Generation: 255/1000
+Generation: 256/1000
+Generation: 257/1000
+Generation: 258/1000
+Generation: 259/1000
+Generation: 260/1000
+Generation: 261/1000
+Generation: 262/1000
+Generation: 263/1000
+Generation: 264/1000
+Generation: 265/1000
+Generation: 266/1000
+Generation: 267/1000
+Generation: 268/1000
+Generation: 269/1000
+Generation: 270/1000
+Generation: 271/1000
+Generation: 272/1000
+Generation: 273/1000
+Generation: 274/1000
+Generation: 275/1000
+Generation: 276/1000
+Generation: 277/1000
+Generation: 278/1000
+Generation: 279/1000
+Generation: 280/1000
+Generation: 281/1000
+Generation: 282/1000
+Generation: 283/1000
+Generation: 284/1000
+Generation: 285/1000
+Generation: 286/1000
+Generation: 287/1000
+Generation: 288/1000
+Generation: 289/1000
+Generation: 290/1000
+Generation: 291/1000
+Generation: 292/1000
+Generation: 293/1000
+Generation: 294/1000
+Generation: 295/1000
+Generation: 296/1000
+Generation: 297/1000
+Generation: 298/1000
+Generation: 299/1000
+Generation: 300/1000
+Generation: 301/1000
+Generation: 302/1000
+Generation: 303/1000
+Generation: 304/1000
+Generation: 305/1000
+Generation: 306/1000
+Generation: 307/1000
+Generation: 308/1000
+Generation: 309/1000
+Generation: 310/1000
+Generation: 311/1000
+Generation: 312/1000
+Generation: 313/1000
+Generation: 314/1000
+Generation: 315/1000
+Generation: 316/1000
+Generation: 317/1000
+Generation: 318/1000
+Generation: 319/1000
+Generation: 320/1000
+Generation: 321/1000
+Generation: 322/1000
+Generation: 323/1000
+Generation: 324/1000
+Generation: 325/1000
+Generation: 326/1000
+Generation: 327/1000
+Generation: 328/1000
+Generation: 329/1000
+Generation: 330/1000
+Generation: 331/1000
+Generation: 332/1000
+Generation: 333/1000
+Generation: 334/1000
+Generation: 335/1000
+Generation: 336/1000
+Generation: 337/1000
+Generation: 338/1000
+Generation: 339/1000
+Generation: 340/1000
+Generation: 341/1000
+Generation: 342/1000
+Generation: 343/1000
+Generation: 344/1000
+Generation: 345/1000
+Generation: 346/1000
+Generation: 347/1000
+Generation: 348/1000
+Generation: 349/1000
+Generation: 350/1000
+Generation: 351/1000
+Generation: 352/1000
+Generation: 353/1000
+Generation: 354/1000
+Generation: 355/1000
+Generation: 356/1000
+Generation: 357/1000
+Generation: 358/1000
+Generation: 359/1000
+Generation: 360/1000
+Generation: 361/1000
+Generation: 362/1000
+Generation: 363/1000
+Generation: 364/1000
+Generation: 365/1000
+Generation: 366/1000
+Generation: 367/1000
+Generation: 368/1000
+Generation: 369/1000
+Generation: 370/1000
+Generation: 371/1000
+Generation: 372/1000
+Generation: 373/1000
+Generation: 374/1000
+Generation: 375/1000
+Generation: 376/1000
+Generation: 377/1000
+Generation: 378/1000
+Generation: 379/1000
+Generation: 380/1000
+Generation: 381/1000
+Generation: 382/1000
+Generation: 383/1000
+Generation: 384/1000
+Generation: 385/1000
+Generation: 386/1000
+Generation: 387/1000
+Generation: 388/1000
+Generation: 389/1000
+Generation: 390/1000
+Generation: 391/1000
+Generation: 392/1000
+Generation: 393/1000
+Generation: 394/1000
+Generation: 395/1000
+Generation: 396/1000
+Generation: 397/1000
+Generation: 398/1000
+Generation: 399/1000
+Generation: 400/1000
+Generation: 401/1000
+Generation: 402/1000
+Generation: 403/1000
+Generation: 404/1000
+Generation: 405/1000
+Generation: 406/1000
+Generation: 407/1000
+Generation: 408/1000
+Generation: 409/1000
+Generation: 410/1000
+Generation: 411/1000
+Generation: 412/1000
+Generation: 413/1000
+Generation: 414/1000
+Generation: 415/1000
+Generation: 416/1000
+Generation: 417/1000
+Generation: 418/1000
+Generation: 419/1000
+Generation: 420/1000
+Generation: 421/1000
+Generation: 422/1000
+Generation: 423/1000
+Generation: 424/1000
+Generation: 425/1000
+Generation: 426/1000
+Generation: 427/1000
+Generation: 428/1000
+Generation: 429/1000
+Generation: 430/1000
+Generation: 431/1000
+Generation: 432/1000
+Generation: 433/1000
+Generation: 434/1000
+Generation: 435/1000
+Generation: 436/1000
+Generation: 437/1000
+Generation: 438/1000
+Generation: 439/1000
+Generation: 440/1000
+Generation: 441/1000
+Generation: 442/1000
+Generation: 443/1000
+Generation: 444/1000
+Generation: 445/1000
+Generation: 446/1000
+Generation: 447/1000
+Generation: 448/1000
+Generation: 449/1000
+Generation: 450/1000
+Generation: 451/1000
+Generation: 452/1000
+Generation: 453/1000
+Generation: 454/1000
+Generation: 455/1000
+Generation: 456/1000
+Generation: 457/1000
+Generation: 458/1000
+Generation: 459/1000
+Generation: 460/1000
+Generation: 461/1000
+Generation: 462/1000
+Generation: 463/1000
+Generation: 464/1000
+Generation: 465/1000
+Generation: 466/1000
+Generation: 467/1000
+Generation: 468/1000
+Generation: 469/1000
+Generation: 470/1000
+Generation: 471/1000
+Generation: 472/1000
+Generation: 473/1000
+Generation: 474/1000
+Generation: 475/1000
+Generation: 476/1000
+Generation: 477/1000
+Generation: 478/1000
+Generation: 479/1000
+Generation: 480/1000
+Generation: 481/1000
+Generation: 482/1000
+Generation: 483/1000
+Generation: 484/1000
+Generation: 485/1000
+Generation: 486/1000
+Generation: 487/1000
+Generation: 488/1000
+Generation: 489/1000
+Generation: 490/1000
+Generation: 491/1000
+Generation: 492/1000
+Generation: 493/1000
+Generation: 494/1000
+Generation: 495/1000
+Generation: 496/1000
+Generation: 497/1000
+Generation: 498/1000
+Generation: 499/1000
+Generation: 500/1000
+Generation: 501/1000
+Generation: 502/1000
+Generation: 503/1000
+Generation: 504/1000
+Generation: 505/1000
+Generation: 506/1000
+Generation: 507/1000
+Generation: 508/1000
+Generation: 509/1000
+Generation: 510/1000
+Generation: 511/1000
+Generation: 512/1000
+Generation: 513/1000
+Generation: 514/1000
+Generation: 515/1000
+Generation: 516/1000
+Generation: 517/1000
+Generation: 518/1000
+Generation: 519/1000
+Generation: 520/1000
+Generation: 521/1000
+Generation: 522/1000
+Generation: 523/1000
+Generation: 524/1000
+Generation: 525/1000
+Generation: 526/1000
+Generation: 527/1000
+Generation: 528/1000
+Generation: 529/1000
+Generation: 530/1000
+Generation: 531/1000
+Generation: 532/1000
+Generation: 533/1000
+Generation: 534/1000
+Generation: 535/1000
+Generation: 536/1000
+Generation: 537/1000
+Generation: 538/1000
+Generation: 539/1000
+Generation: 540/1000
+Generation: 541/1000
+Generation: 542/1000
+Generation: 543/1000
+Generation: 544/1000
+Generation: 545/1000
+Generation: 546/1000
+Generation: 547/1000
+Generation: 548/1000
+Generation: 549/1000
+Generation: 550/1000
+Generation: 551/1000
+Generation: 552/1000
+Generation: 553/1000
+Generation: 554/1000
+Generation: 555/1000
+Generation: 556/1000
+Generation: 557/1000
+Generation: 558/1000
+Generation: 559/1000
+Generation: 560/1000
+Generation: 561/1000
+Generation: 562/1000
+Generation: 563/1000
+Generation: 564/1000
+Generation: 565/1000
+Generation: 566/1000
+Generation: 567/1000
+Generation: 568/1000
+Generation: 569/1000
+Generation: 570/1000
+Generation: 571/1000
+Generation: 572/1000
+Generation: 573/1000
+Generation: 574/1000
+Generation: 575/1000
+Generation: 576/1000
+Generation: 577/1000
+Generation: 578/1000
+Generation: 579/1000
+Generation: 580/1000
+Generation: 581/1000
+Generation: 582/1000
+Generation: 583/1000
+Generation: 584/1000
+Generation: 585/1000
+Generation: 586/1000
+Generation: 587/1000
+Generation: 588/1000
+Generation: 589/1000
+Generation: 590/1000
+Generation: 591/1000
+Generation: 592/1000
+Generation: 593/1000
+Generation: 594/1000
+Generation: 595/1000
+Generation: 596/1000
+Generation: 597/1000
+Generation: 598/1000
+Generation: 599/1000
+Generation: 600/1000
+Generation: 601/1000
+Generation: 602/1000
+Generation: 603/1000
+Generation: 604/1000
+Generation: 605/1000
+Generation: 606/1000
+Generation: 607/1000
+Generation: 608/1000
+Generation: 609/1000
+Generation: 610/1000
+Generation: 611/1000
+Generation: 612/1000
+Generation: 613/1000
+Generation: 614/1000
+Generation: 615/1000
+Generation: 616/1000
+Generation: 617/1000
+Generation: 618/1000
+Generation: 619/1000
+Generation: 620/1000
+Generation: 621/1000
+Generation: 622/1000
+Generation: 623/1000
+Generation: 624/1000
+Generation: 625/1000
+Generation: 626/1000
+Generation: 627/1000
+Generation: 628/1000
+Generation: 629/1000
+Generation: 630/1000
+Generation: 631/1000
+Generation: 632/1000
+Generation: 633/1000
+Generation: 634/1000
+Generation: 635/1000
+Generation: 636/1000
+Generation: 637/1000
+Generation: 638/1000
+Generation: 639/1000
+Generation: 640/1000
+Generation: 641/1000
+Generation: 642/1000
+Generation: 643/1000
+Generation: 644/1000
+Generation: 645/1000
+Generation: 646/1000
+Generation: 647/1000
+Generation: 648/1000
+Generation: 649/1000
+Generation: 650/1000
+Generation: 651/1000
+Generation: 652/1000
+Generation: 653/1000
+Generation: 654/1000
+Generation: 655/1000
+Generation: 656/1000
+Generation: 657/1000
+Generation: 658/1000
+Generation: 659/1000
+Generation: 660/1000
+Generation: 661/1000
+Generation: 662/1000
+Generation: 663/1000
+Generation: 664/1000
+Generation: 665/1000
+Generation: 666/1000
+Generation: 667/1000
+Generation: 668/1000
+Generation: 669/1000
+Generation: 670/1000
+Generation: 671/1000
+Generation: 672/1000
+Generation: 673/1000
+Generation: 674/1000
+Generation: 675/1000
+Generation: 676/1000
+Generation: 677/1000
+Generation: 678/1000
+Generation: 679/1000
+Generation: 680/1000
+Generation: 681/1000
+Generation: 682/1000
+Generation: 683/1000
+Generation: 684/1000
+Generation: 685/1000
+Generation: 686/1000
+Generation: 687/1000
+Generation: 688/1000
+Generation: 689/1000
+Generation: 690/1000
+Generation: 691/1000
+Generation: 692/1000
+Generation: 693/1000
+Generation: 694/1000
+Generation: 695/1000
+Generation: 696/1000
+Generation: 697/1000
+Generation: 698/1000
+Generation: 699/1000
+Generation: 700/1000
+Generation: 701/1000
+Generation: 702/1000
+Generation: 703/1000
+Generation: 704/1000
+Generation: 705/1000
+Generation: 706/1000
+Generation: 707/1000
+Generation: 708/1000
+Generation: 709/1000
+Generation: 710/1000
+Generation: 711/1000
+Generation: 712/1000
+Generation: 713/1000
+Generation: 714/1000
+Generation: 715/1000
+Generation: 716/1000
+Generation: 717/1000
+Generation: 718/1000
+Generation: 719/1000
+Generation: 720/1000
+Generation: 721/1000
+Generation: 722/1000
+Generation: 723/1000
+Generation: 724/1000
+Generation: 725/1000
+Generation: 726/1000
+Generation: 727/1000
+Generation: 728/1000
+Generation: 729/1000
+Generation: 730/1000
+Generation: 731/1000
+Generation: 732/1000
+Generation: 733/1000
+Generation: 734/1000
+Generation: 735/1000
+Generation: 736/1000
+Generation: 737/1000
+Generation: 738/1000
+Generation: 739/1000
+Generation: 740/1000
+Generation: 741/1000
+Generation: 742/1000
+Generation: 743/1000
+Generation: 744/1000
+Generation: 745/1000
+Generation: 746/1000
+Generation: 747/1000
+Generation: 748/1000
+Generation: 749/1000
+Generation: 750/1000
+Generation: 751/1000
+Generation: 752/1000
+Generation: 753/1000
+Generation: 754/1000
+Generation: 755/1000
+Generation: 756/1000
+Generation: 757/1000
+Generation: 758/1000
+Generation: 759/1000
+Generation: 760/1000
+Generation: 761/1000
+Generation: 762/1000
+Generation: 763/1000
+Generation: 764/1000
+Generation: 765/1000
+Generation: 766/1000
+Generation: 767/1000
+Generation: 768/1000
+Generation: 769/1000
+Generation: 770/1000
+Generation: 771/1000
+Generation: 772/1000
+Generation: 773/1000
+Generation: 774/1000
+Generation: 775/1000
+Generation: 776/1000
+Generation: 777/1000
+Generation: 778/1000
+Generation: 779/1000
+Generation: 780/1000
+Generation: 781/1000
+Generation: 782/1000
+Generation: 783/1000
+Generation: 784/1000
+Generation: 785/1000
+Generation: 786/1000
+Generation: 787/1000
+Generation: 788/1000
+Generation: 789/1000
+Generation: 790/1000
+Generation: 791/1000
+Generation: 792/1000
+Generation: 793/1000
+Generation: 794/1000
+Generation: 795/1000
+Generation: 796/1000
+Generation: 797/1000
+Generation: 798/1000
+Generation: 799/1000
+Generation: 800/1000
+Generation: 801/1000
+Generation: 802/1000
+Generation: 803/1000
+Generation: 804/1000
+Generation: 805/1000
+Generation: 806/1000
+Generation: 807/1000
+Generation: 808/1000
+Generation: 809/1000
+Generation: 810/1000
+Generation: 811/1000
+Generation: 812/1000
+Generation: 813/1000
+Generation: 814/1000
+Generation: 815/1000
+Generation: 816/1000
+Generation: 817/1000
+Generation: 818/1000
+Generation: 819/1000
+Generation: 820/1000
+Generation: 821/1000
+Generation: 822/1000
+Generation: 823/1000
+Generation: 824/1000
+Generation: 825/1000
+Generation: 826/1000
+Generation: 827/1000
+Generation: 828/1000
+Generation: 829/1000
+Generation: 830/1000
+Generation: 831/1000
+Generation: 832/1000
+Generation: 833/1000
+Generation: 834/1000
+Generation: 835/1000
+Generation: 836/1000
+Generation: 837/1000
+Generation: 838/1000
+Generation: 839/1000
+Generation: 840/1000
+Generation: 841/1000
+Generation: 842/1000
+Generation: 843/1000
+Generation: 844/1000
+Generation: 845/1000
+Generation: 846/1000
+Generation: 847/1000
+Generation: 848/1000
+Generation: 849/1000
+Generation: 850/1000
+Generation: 851/1000
+Generation: 852/1000
+Generation: 853/1000
+Generation: 854/1000
+Generation: 855/1000
+Generation: 856/1000
+Generation: 857/1000
+Generation: 858/1000
+Generation: 859/1000
+Generation: 860/1000
+Generation: 861/1000
+Generation: 862/1000
+Generation: 863/1000
+Generation: 864/1000
+Generation: 865/1000
+Generation: 866/1000
+Generation: 867/1000
+Generation: 868/1000
+Generation: 869/1000
+Generation: 870/1000
+Generation: 871/1000
+Generation: 872/1000
+Generation: 873/1000
+Generation: 874/1000
+Generation: 875/1000
+Generation: 876/1000
+Generation: 877/1000
+Generation: 878/1000
+Generation: 879/1000
+Generation: 880/1000
+Generation: 881/1000
+Generation: 882/1000
+Generation: 883/1000
+Generation: 884/1000
+Generation: 885/1000
+Generation: 886/1000
+Generation: 887/1000
+Generation: 888/1000
+Generation: 889/1000
+Generation: 890/1000
+Generation: 891/1000
+Generation: 892/1000
+Generation: 893/1000
+Generation: 894/1000
+Generation: 895/1000
+Generation: 896/1000
+Generation: 897/1000
+Generation: 898/1000
+Generation: 899/1000
+Generation: 900/1000
+Generation: 901/1000
+Generation: 902/1000
+Generation: 903/1000
+Generation: 904/1000
+Generation: 905/1000
+Generation: 906/1000
+Generation: 907/1000
+Generation: 908/1000
+Generation: 909/1000
+Generation: 910/1000
+Generation: 911/1000
+Generation: 912/1000
+Generation: 913/1000
+Generation: 914/1000
+Generation: 915/1000
+Generation: 916/1000
+Generation: 917/1000
+Generation: 918/1000
+Generation: 919/1000
+Generation: 920/1000
+Generation: 921/1000
+Generation: 922/1000
+Generation: 923/1000
+Generation: 924/1000
+Generation: 925/1000
+Generation: 926/1000
+Generation: 927/1000
+Generation: 928/1000
+Generation: 929/1000
+Generation: 930/1000
+Generation: 931/1000
+Generation: 932/1000
+Generation: 933/1000
+Generation: 934/1000
+Generation: 935/1000
+Generation: 936/1000
+Generation: 937/1000
+Generation: 938/1000
+Generation: 939/1000
+Generation: 940/1000
+Generation: 941/1000
+Generation: 942/1000
+Generation: 943/1000
+Generation: 944/1000
+Generation: 945/1000
+Generation: 946/1000
+Generation: 947/1000
+Generation: 948/1000
+Generation: 949/1000
+Generation: 950/1000
+Generation: 951/1000
+Generation: 952/1000
+Generation: 953/1000
+Generation: 954/1000
+Generation: 955/1000
+Generation: 956/1000
+Generation: 957/1000
+Generation: 958/1000
+Generation: 959/1000
+Generation: 960/1000
+Generation: 961/1000
+Generation: 962/1000
+Generation: 963/1000
+Generation: 964/1000
+Generation: 965/1000
+Generation: 966/1000
+Generation: 967/1000
+Generation: 968/1000
+Generation: 969/1000
+Generation: 970/1000
+Generation: 971/1000
+Generation: 972/1000
+Generation: 973/1000
+Generation: 974/1000
+Generation: 975/1000
+Generation: 976/1000
+Generation: 977/1000
+Generation: 978/1000
+Generation: 979/1000
+Generation: 980/1000
+Generation: 981/1000
+Generation: 982/1000
+Generation: 983/1000
+Generation: 984/1000
+Generation: 985/1000
+Generation: 986/1000
+Generation: 987/1000
+Generation: 988/1000
+Generation: 989/1000
+Generation: 990/1000
+Generation: 991/1000
+Generation: 992/1000
+Generation: 993/1000
+Generation: 994/1000
+Generation: 995/1000
+Generation: 996/1000
+Generation: 997/1000
+Generation: 998/1000
+Generation: 999/1000
+Generation: 1000/1000
+FITNESS - best: 1139.64231, mean: 4442.50893
+FITNESS - best: 1039.08633, mean: 3231.48603
+FITNESS - best: 399.90895, mean: 2373.80470
+FITNESS - best: 364.76202, mean: 1797.76333
+FITNESS - best: 299.03657, mean: 1412.48310
+FITNESS - best: 242.93720, mean: 1097.43954
+FITNESS - best: 200.65355, mean: 855.63355
+FITNESS - best: 151.55575, mean: 638.97558
+FITNESS - best: 124.51621, mean: 480.40130
+FITNESS - best: 96.86509, mean: 357.50303
+FITNESS - best: 70.01723, mean: 274.44878
+FITNESS - best: 63.83589, mean: 209.39094
+FITNESS - best: 28.27688, mean: 160.81196
+FITNESS - best: 28.27688, mean: 129.35036
+FITNESS - best: 28.27688, mean: 101.82180
+FITNESS - best: 28.27688, mean: 82.95016
+FITNESS - best: 17.63390, mean: 70.06020
+FITNESS - best: 17.63390, mean: 61.50704
+FITNESS - best: 17.63390, mean: 53.23693
+FITNESS - best: 17.63390, mean: 47.88539
+FITNESS - best: 17.63390, mean: 42.71979
+FITNESS - best: 17.63390, mean: 38.18366
+FITNESS - best: 17.63390, mean: 34.98551
+FITNESS - best: 16.00881, mean: 31.80688
+FITNESS - best: 12.92844, mean: 28.07093
+FITNESS - best: 12.92844, mean: 27.04817
+FITNESS - best: 12.92844, mean: 26.43289
+FITNESS - best: 12.92844, mean: 24.00436
+FITNESS - best: 12.92844, mean: 23.11687
+FITNESS - best: 12.92844, mean: 22.36609
+FITNESS - best: 12.82499, mean: 19.77324
+FITNESS - best: 12.82499, mean: 20.14278
+FITNESS - best: 12.82499, mean: 18.72811
+FITNESS - best: 12.25249, mean: 18.90741
+FITNESS - best: 12.25249, mean: 16.75645
+FITNESS - best: 12.25249, mean: 17.49243
+FITNESS - best: 12.25249, mean: 15.87143
+FITNESS - best: 11.97588, mean: 16.56843
+FITNESS - best: 11.97588, mean: 16.63764
+FITNESS - best: 11.97588, mean: 16.54883
+FITNESS - best: 11.87585, mean: 15.39209
+FITNESS - best: 11.87585, mean: 16.03267
+FITNESS - best: 11.72044, mean: 15.06050
+FITNESS - best: 11.72044, mean: 16.34249
+FITNESS - best: 11.49784, mean: 15.02416
+FITNESS - best: 11.49784, mean: 15.02054
+FITNESS - best: 11.49784, mean: 15.17466
+FITNESS - best: 11.49784, mean: 14.09734
+FITNESS - best: 11.49784, mean: 14.22025
+FITNESS - best: 11.33729, mean: 15.89101
+FITNESS - best: 11.33729, mean: 13.97576
+FITNESS - best: 10.66790, mean: 15.20582
+FITNESS - best: 10.66790, mean: 15.23803
+FITNESS - best: 10.66790, mean: 13.07673
+FITNESS - best: 10.66790, mean: 14.23817
+FITNESS - best: 10.66790, mean: 13.87453
+FITNESS - best: 10.66790, mean: 14.67554
+FITNESS - best: 10.66790, mean: 14.19848
+FITNESS - best: 10.57363, mean: 12.98498
+FITNESS - best: 10.53588, mean: 13.95848
+FITNESS - best: 10.51924, mean: 13.30993
+FITNESS - best: 10.51924, mean: 13.17396
+FITNESS - best: 10.48733, mean: 12.81698
+FITNESS - best: 10.24705, mean: 14.40299
+FITNESS - best: 10.24705, mean: 13.32865
+FITNESS - best: 10.24705, mean: 13.28575
+FITNESS - best: 10.18562, mean: 12.95751
+FITNESS - best: 10.18562, mean: 13.36612
+FITNESS - best: 10.16897, mean: 12.95267
+FITNESS - best: 10.16897, mean: 12.30088
+FITNESS - best: 10.16897, mean: 12.76926
+FITNESS - best: 10.16897, mean: 13.24218
+FITNESS - best: 10.16897, mean: 12.55248
+FITNESS - best: 10.16897, mean: 12.33127
+FITNESS - best: 10.16897, mean: 12.51796
+FITNESS - best: 10.16897, mean: 12.95684
+FITNESS - best: 10.16897, mean: 12.25356
+FITNESS - best: 10.09617, mean: 12.58537
+FITNESS - best: 10.09617, mean: 12.87508
+FITNESS - best: 10.09617, mean: 12.53423
+FITNESS - best: 10.09617, mean: 13.06895
+FITNESS - best: 10.07753, mean: 13.00953
+FITNESS - best: 9.99388, mean: 11.92622
+FITNESS - best: 9.99388, mean: 12.36880
+FITNESS - best: 9.80256, mean: 12.60096
+FITNESS - best: 9.80256, mean: 12.28545
+FITNESS - best: 9.80256, mean: 13.45856
+FITNESS - best: 9.80256, mean: 12.81813
+FITNESS - best: 9.80256, mean: 12.62091
+FITNESS - best: 9.80256, mean: 12.59497
+FITNESS - best: 9.80256, mean: 12.71913
+FITNESS - best: 9.80256, mean: 12.80873
+FITNESS - best: 9.80256, mean: 11.09379
+FITNESS - best: 9.80256, mean: 14.17729
+FITNESS - best: 9.80256, mean: 11.96473
+FITNESS - best: 9.80256, mean: 13.27198
+FITNESS - best: 9.80256, mean: 12.48895
+FITNESS - best: 9.80256, mean: 11.80113
+FITNESS - best: 9.79667, mean: 11.61386
+FITNESS - best: 9.79453, mean: 13.38546
+FITNESS - best: 9.79453, mean: 13.13463
+FITNESS - best: 9.79453, mean: 11.90865
+FITNESS - best: 9.79453, mean: 11.53276
+FITNESS - best: 9.79453, mean: 12.32262
+FITNESS - best: 9.79453, mean: 12.79800
+FITNESS - best: 9.79453, mean: 12.41442
+FITNESS - best: 9.79453, mean: 12.66383
+FITNESS - best: 9.79453, mean: 11.68453
+FITNESS - best: 9.78591, mean: 12.17635
+FITNESS - best: 9.78591, mean: 11.92775
+FITNESS - best: 9.78591, mean: 11.40475
+FITNESS - best: 9.78591, mean: 12.96680
+FITNESS - best: 9.78591, mean: 13.11702
+FITNESS - best: 9.78591, mean: 13.07651
+FITNESS - best: 9.78591, mean: 12.05869
+FITNESS - best: 9.78591, mean: 12.07006
+FITNESS - best: 9.78591, mean: 10.99383
+FITNESS - best: 9.77905, mean: 12.08916
+FITNESS - best: 9.77905, mean: 12.49229
+FITNESS - best: 9.77905, mean: 12.62592
+FITNESS - best: 9.77905, mean: 12.36875
+FITNESS - best: 9.77905, mean: 12.89377
+FITNESS - best: 9.77172, mean: 13.14748
+FITNESS - best: 9.77172, mean: 13.45454
+FITNESS - best: 9.77172, mean: 11.70524
+FITNESS - best: 9.76897, mean: 12.41477
+FITNESS - best: 9.76897, mean: 12.09245
+FITNESS - best: 9.76601, mean: 12.93120
+FITNESS - best: 9.76601, mean: 12.81645
+FITNESS - best: 9.76533, mean: 13.81789
+FITNESS - best: 9.76533, mean: 12.56647
+FITNESS - best: 9.75114, mean: 11.57429
+FITNESS - best: 9.75114, mean: 12.62611
+FITNESS - best: 9.75114, mean: 12.24487
+FITNESS - best: 9.75114, mean: 12.96555
+FITNESS - best: 9.75114, mean: 12.08473
+FITNESS - best: 9.75114, mean: 12.57407
+FITNESS - best: 9.75114, mean: 11.71137
+FITNESS - best: 9.73012, mean: 12.20380
+FITNESS - best: 9.72539, mean: 11.09364
+FITNESS - best: 9.72539, mean: 11.96491
+FITNESS - best: 9.72539, mean: 12.49531
+FITNESS - best: 9.72539, mean: 12.12865
+FITNESS - best: 9.72539, mean: 11.77548
+FITNESS - best: 9.72539, mean: 13.21165
+FITNESS - best: 9.71677, mean: 13.06091
+FITNESS - best: 9.71677, mean: 11.25152
+FITNESS - best: 9.71677, mean: 11.91838
+FITNESS - best: 9.71677, mean: 11.54679
+FITNESS - best: 9.71073, mean: 12.64676
+FITNESS - best: 9.71073, mean: 12.19982
+FITNESS - best: 9.70810, mean: 11.64238
+FITNESS - best: 9.70810, mean: 11.23532
+FITNESS - best: 9.70810, mean: 12.01627
+FITNESS - best: 9.70810, mean: 11.60251
+FITNESS - best: 9.70810, mean: 11.71547
+FITNESS - best: 9.70731, mean: 13.01033
+FITNESS - best: 9.70731, mean: 11.68351
+FITNESS - best: 9.70731, mean: 12.96836
+FITNESS - best: 9.70129, mean: 11.76812
+FITNESS - best: 9.68479, mean: 12.49891
+FITNESS - best: 9.68479, mean: 11.85364
+FITNESS - best: 9.68479, mean: 13.19752
+FITNESS - best: 9.68479, mean: 11.37296
+FITNESS - best: 9.68479, mean: 13.64191
+FITNESS - best: 9.68479, mean: 11.46762
+FITNESS - best: 9.68479, mean: 11.51974
+FITNESS - best: 9.68479, mean: 12.49055
+FITNESS - best: 9.68479, mean: 11.39793
+FITNESS - best: 9.68479, mean: 11.30182
+FITNESS - best: 9.68479, mean: 12.62883
+FITNESS - best: 9.68306, mean: 11.43424
+FITNESS - best: 9.68306, mean: 11.07631
+FITNESS - best: 9.68306, mean: 12.74644
+FITNESS - best: 9.68306, mean: 12.07813
+FITNESS - best: 9.68306, mean: 13.45163
+FITNESS - best: 9.68225, mean: 12.62642
+FITNESS - best: 9.68225, mean: 11.80688
+FITNESS - best: 9.68225, mean: 10.95222
+FITNESS - best: 9.66400, mean: 13.06705
+FITNESS - best: 9.66400, mean: 12.97737
+FITNESS - best: 9.66400, mean: 12.13200
+FITNESS - best: 9.66400, mean: 12.24642
+FITNESS - best: 9.66400, mean: 12.19364
+FITNESS - best: 9.66400, mean: 12.32539
+FITNESS - best: 9.66400, mean: 12.03488
+FITNESS - best: 9.66400, mean: 11.87720
+FITNESS - best: 9.66400, mean: 12.41042
+FITNESS - best: 9.66400, mean: 12.31428
+FITNESS - best: 9.66400, mean: 12.13186
+FITNESS - best: 9.66400, mean: 13.54755
+FITNESS - best: 9.66400, mean: 12.47111
+FITNESS - best: 9.66400, mean: 12.55176
+FITNESS - best: 9.66400, mean: 11.66980
+FITNESS - best: 9.66400, mean: 12.31354
+FITNESS - best: 9.66201, mean: 11.41296
+FITNESS - best: 9.66201, mean: 11.01362
+FITNESS - best: 9.66201, mean: 12.21334
+FITNESS - best: 9.66201, mean: 10.87410
+FITNESS - best: 9.66201, mean: 12.00316
+FITNESS - best: 9.66201, mean: 13.35098
+FITNESS - best: 9.66201, mean: 12.06480
+FITNESS - best: 9.66201, mean: 12.56889
+FITNESS - best: 9.65520, mean: 12.33244
+FITNESS - best: 9.65520, mean: 13.20172
+FITNESS - best: 9.65322, mean: 12.47943
+FITNESS - best: 9.65322, mean: 12.26891
+FITNESS - best: 9.65322, mean: 14.61444
+FITNESS - best: 9.65322, mean: 12.38843
+FITNESS - best: 9.65322, mean: 13.59458
+FITNESS - best: 9.65322, mean: 12.55862
+FITNESS - best: 9.65322, mean: 12.57345
+FITNESS - best: 9.65322, mean: 12.03017
+FITNESS - best: 9.65322, mean: 11.90852
+FITNESS - best: 9.65322, mean: 13.28996
+FITNESS - best: 9.65322, mean: 12.25553
+FITNESS - best: 9.65322, mean: 11.95741
+FITNESS - best: 9.65322, mean: 12.22514
+FITNESS - best: 9.65322, mean: 11.15048
+FITNESS - best: 9.65322, mean: 11.67890
+FITNESS - best: 9.65118, mean: 12.25015
+FITNESS - best: 9.65118, mean: 11.13201
+FITNESS - best: 9.65118, mean: 13.09868
+FITNESS - best: 9.64556, mean: 11.89904
+FITNESS - best: 9.64556, mean: 11.40656
+FITNESS - best: 9.64556, mean: 11.46122
+FITNESS - best: 9.64556, mean: 11.67327
+FITNESS - best: 9.64089, mean: 12.41355
+FITNESS - best: 9.64089, mean: 11.85483
+FITNESS - best: 9.64089, mean: 11.67347
+FITNESS - best: 9.64089, mean: 12.58078
+FITNESS - best: 9.64089, mean: 12.70501
+FITNESS - best: 9.64089, mean: 12.37676
+FITNESS - best: 9.64089, mean: 11.54959
+FITNESS - best: 9.64089, mean: 11.79446
+FITNESS - best: 9.64089, mean: 11.72306
+FITNESS - best: 9.64089, mean: 13.32141
+FITNESS - best: 9.64004, mean: 11.76159
+FITNESS - best: 9.64004, mean: 12.96812
+FITNESS - best: 9.63731, mean: 12.09609
+FITNESS - best: 9.63731, mean: 12.93193
+FITNESS - best: 9.63731, mean: 11.45657
+FITNESS - best: 9.63731, mean: 11.56055
+FITNESS - best: 9.63731, mean: 11.82212
+FITNESS - best: 9.63731, mean: 11.58134
+FITNESS - best: 9.63731, mean: 13.30319
+FITNESS - best: 9.63731, mean: 12.28425
+FITNESS - best: 9.63731, mean: 11.68984
+FITNESS - best: 9.63435, mean: 11.01661
+FITNESS - best: 9.63435, mean: 11.78483
+FITNESS - best: 9.63435, mean: 13.40553
+FITNESS - best: 9.63435, mean: 11.78733
+FITNESS - best: 9.63435, mean: 11.16003
+FITNESS - best: 9.63435, mean: 12.61981
+FITNESS - best: 9.63435, mean: 11.29738
+FITNESS - best: 9.63435, mean: 13.28749
+FITNESS - best: 9.63435, mean: 11.80683
+FITNESS - best: 9.63435, mean: 12.83060
+FITNESS - best: 9.63354, mean: 12.26582
+FITNESS - best: 9.62940, mean: 12.46541
+FITNESS - best: 9.62940, mean: 12.30539
+FITNESS - best: 9.62940, mean: 11.51700
+FITNESS - best: 9.62940, mean: 11.66182
+FITNESS - best: 9.62940, mean: 11.54216
+FITNESS - best: 9.62940, mean: 11.15371
+FITNESS - best: 9.62940, mean: 11.14395
+FITNESS - best: 9.62940, mean: 13.54794
+FITNESS - best: 9.62940, mean: 12.16381
+FITNESS - best: 9.62786, mean: 12.99319
+FITNESS - best: 9.62756, mean: 12.32040
+FITNESS - best: 9.62756, mean: 11.89350
+FITNESS - best: 9.62756, mean: 12.32185
+FITNESS - best: 9.62661, mean: 11.96803
+FITNESS - best: 9.62661, mean: 12.88778
+FITNESS - best: 9.62661, mean: 11.32262
+FITNESS - best: 9.62661, mean: 11.03594
+FITNESS - best: 9.62661, mean: 13.28002
+FITNESS - best: 9.62607, mean: 13.44625
+FITNESS - best: 9.62607, mean: 11.65984
+FITNESS - best: 9.62607, mean: 12.20836
+FITNESS - best: 9.62607, mean: 12.90311
+FITNESS - best: 9.62607, mean: 12.19315
+FITNESS - best: 9.62607, mean: 14.23210
+FITNESS - best: 9.62607, mean: 12.38068
+FITNESS - best: 9.62607, mean: 11.76859
+FITNESS - best: 9.62606, mean: 11.57499
+FITNESS - best: 9.62606, mean: 12.42916
+FITNESS - best: 9.62606, mean: 12.14238
+FITNESS - best: 9.62606, mean: 11.89593
+FITNESS - best: 9.62606, mean: 11.69041
+FITNESS - best: 9.62606, mean: 11.96170
+FITNESS - best: 9.62555, mean: 12.63192
+FITNESS - best: 9.62403, mean: 10.84192
+FITNESS - best: 9.62403, mean: 12.08171
+FITNESS - best: 9.62403, mean: 11.77274
+FITNESS - best: 9.62403, mean: 12.85858
+FITNESS - best: 9.62403, mean: 11.81860
+FITNESS - best: 9.62403, mean: 11.86362
+FITNESS - best: 9.62403, mean: 12.63946
+FITNESS - best: 9.62403, mean: 12.22284
+FITNESS - best: 9.62403, mean: 11.29570
+FITNESS - best: 9.62403, mean: 11.84733
+FITNESS - best: 9.62403, mean: 11.51805
+FITNESS - best: 9.62403, mean: 11.23755
+FITNESS - best: 9.62388, mean: 12.31565
+FITNESS - best: 9.62380, mean: 12.44339
+FITNESS - best: 9.62380, mean: 11.70940
+FITNESS - best: 9.62380, mean: 12.15768
+FITNESS - best: 9.62375, mean: 12.57698
+FITNESS - best: 9.62375, mean: 12.16334
+FITNESS - best: 9.62265, mean: 13.38190
+FITNESS - best: 9.62265, mean: 12.59299
+FITNESS - best: 9.62265, mean: 12.28996
+FITNESS - best: 9.62265, mean: 11.21779
+FITNESS - best: 9.62265, mean: 11.41320
+FITNESS - best: 9.62265, mean: 11.82673
+FITNESS - best: 9.62265, mean: 10.85291
+FITNESS - best: 9.62265, mean: 13.72425
+FITNESS - best: 9.62265, mean: 12.25827
+FITNESS - best: 9.62265, mean: 11.05239
+FITNESS - best: 9.62265, mean: 11.70838
+FITNESS - best: 9.62123, mean: 12.07832
+FITNESS - best: 9.62123, mean: 11.36185
+FITNESS - best: 9.62123, mean: 12.24099
+FITNESS - best: 9.62123, mean: 11.19695
+FITNESS - best: 9.62123, mean: 12.71496
+FITNESS - best: 9.62123, mean: 12.37517
+FITNESS - best: 9.62123, mean: 11.61744
+FITNESS - best: 9.62119, mean: 11.60818
+FITNESS - best: 9.62119, mean: 12.74276
+FITNESS - best: 9.62100, mean: 11.80670
+FITNESS - best: 9.62100, mean: 11.91411
+FITNESS - best: 9.62100, mean: 11.74296
+FITNESS - best: 9.62100, mean: 11.93885
+FITNESS - best: 9.62100, mean: 11.93601
+FITNESS - best: 9.62100, mean: 12.81446
+FITNESS - best: 9.62100, mean: 13.46633
+FITNESS - best: 9.62100, mean: 10.82810
+FITNESS - best: 9.62100, mean: 11.44945
+FITNESS - best: 9.62100, mean: 12.38960
+FITNESS - best: 9.62100, mean: 12.82778
+FITNESS - best: 9.62100, mean: 11.69464
+FITNESS - best: 9.61887, mean: 12.43486
+FITNESS - best: 9.61887, mean: 11.13564
+FITNESS - best: 9.61887, mean: 12.28452
+FITNESS - best: 9.61887, mean: 12.27404
+FITNESS - best: 9.61887, mean: 10.66669
+FITNESS - best: 9.61887, mean: 11.84947
+FITNESS - best: 9.61887, mean: 12.14723
+FITNESS - best: 9.61887, mean: 11.81103
+FITNESS - best: 9.61887, mean: 11.67713
+FITNESS - best: 9.61887, mean: 12.20915
+FITNESS - best: 9.61887, mean: 11.74527
+FITNESS - best: 9.61887, mean: 12.48705
+FITNESS - best: 9.61887, mean: 11.15469
+FITNESS - best: 9.61321, mean: 11.10157
+FITNESS - best: 9.61321, mean: 12.79275
+FITNESS - best: 9.61321, mean: 14.18379
+FITNESS - best: 9.61321, mean: 11.99300
+FITNESS - best: 9.61321, mean: 11.84933
+FITNESS - best: 9.61321, mean: 11.63714
+FITNESS - best: 9.61321, mean: 12.21238
+FITNESS - best: 9.61321, mean: 10.97529
+FITNESS - best: 9.61321, mean: 11.85818
+FITNESS - best: 9.61321, mean: 11.88133
+FITNESS - best: 9.61321, mean: 11.21257
+FITNESS - best: 9.61218, mean: 11.99595
+FITNESS - best: 9.61218, mean: 11.25294
+FITNESS - best: 9.61218, mean: 11.75241
+FITNESS - best: 9.61218, mean: 11.43224
+FITNESS - best: 9.61218, mean: 13.16819
+FITNESS - best: 9.61218, mean: 12.08786
+FITNESS - best: 9.61218, mean: 11.49985
+FITNESS - best: 9.61218, mean: 12.25428
+FITNESS - best: 9.61218, mean: 12.58644
+FITNESS - best: 9.61218, mean: 11.95602
+FITNESS - best: 9.61218, mean: 12.49926
+FITNESS - best: 9.61218, mean: 12.23637
+FITNESS - best: 9.61218, mean: 11.22493
+FITNESS - best: 9.61218, mean: 11.32815
+FITNESS - best: 9.61218, mean: 12.05271
+FITNESS - best: 9.61218, mean: 11.89223
+FITNESS - best: 9.61218, mean: 11.47250
+FITNESS - best: 9.61169, mean: 12.29851
+FITNESS - best: 9.61169, mean: 11.70738
+FITNESS - best: 9.61169, mean: 13.06565
+FITNESS - best: 9.61169, mean: 11.43602
+FITNESS - best: 9.61169, mean: 11.99543
+FITNESS - best: 9.61169, mean: 11.28230
+FITNESS - best: 9.61169, mean: 13.52226
+FITNESS - best: 9.61169, mean: 12.70932
+FITNESS - best: 9.61169, mean: 13.38920
+FITNESS - best: 9.61169, mean: 12.56078
+FITNESS - best: 9.61169, mean: 12.67865
+FITNESS - best: 9.61169, mean: 11.41227
+FITNESS - best: 9.61169, mean: 12.01193
+FITNESS - best: 9.61169, mean: 11.15409
+FITNESS - best: 9.61169, mean: 12.77649
+FITNESS - best: 9.61169, mean: 11.95372
+FITNESS - best: 9.61169, mean: 13.44347
+FITNESS - best: 9.61169, mean: 11.63717
+FITNESS - best: 9.61169, mean: 12.86778
+FITNESS - best: 9.61169, mean: 11.35465
+FITNESS - best: 9.61169, mean: 12.22117
+FITNESS - best: 9.61169, mean: 12.84209
+FITNESS - best: 9.61169, mean: 12.32709
+FITNESS - best: 9.61169, mean: 12.01142
+FITNESS - best: 9.61169, mean: 12.48389
+FITNESS - best: 9.61169, mean: 14.46322
+FITNESS - best: 9.61169, mean: 11.96747
+FITNESS - best: 9.61169, mean: 11.41168
+FITNESS - best: 9.61169, mean: 11.91512
+FITNESS - best: 9.61169, mean: 10.83625
+FITNESS - best: 9.61169, mean: 11.95478
+FITNESS - best: 9.61169, mean: 11.78757
+FITNESS - best: 9.61169, mean: 12.09777
+FITNESS - best: 9.61166, mean: 11.56802
+FITNESS - best: 9.61166, mean: 11.21266
+FITNESS - best: 9.61166, mean: 12.27925
+FITNESS - best: 9.61166, mean: 12.74893
+FITNESS - best: 9.61166, mean: 12.47281
+FITNESS - best: 9.61166, mean: 12.14693
+FITNESS - best: 9.61166, mean: 11.89711
+FITNESS - best: 9.61166, mean: 12.93013
+FITNESS - best: 9.61166, mean: 12.25372
+FITNESS - best: 9.61166, mean: 12.45052
+FITNESS - best: 9.60955, mean: 12.13670
+FITNESS - best: 9.60955, mean: 12.93035
+FITNESS - best: 9.60955, mean: 12.21238
+FITNESS - best: 9.60955, mean: 11.96212
+FITNESS - best: 9.60955, mean: 11.59323
+FITNESS - best: 9.60955, mean: 12.72841
+FITNESS - best: 9.60955, mean: 12.04346
+FITNESS - best: 9.60955, mean: 12.20352
+FITNESS - best: 9.60955, mean: 11.37662
+FITNESS - best: 9.60955, mean: 13.19487
+FITNESS - best: 9.60955, mean: 12.69917
+FITNESS - best: 9.60807, mean: 12.48520
+FITNESS - best: 9.60807, mean: 12.48194
+FITNESS - best: 9.60807, mean: 12.09085
+FITNESS - best: 9.60807, mean: 12.17616
+FITNESS - best: 9.60807, mean: 12.65449
+FITNESS - best: 9.60807, mean: 11.06415
+FITNESS - best: 9.60807, mean: 11.30988
+FITNESS - best: 9.60807, mean: 10.83186
+FITNESS - best: 9.60807, mean: 12.87895
+FITNESS - best: 9.60807, mean: 13.40637
+FITNESS - best: 9.60807, mean: 11.38771
+FITNESS - best: 9.60807, mean: 13.45661
+FITNESS - best: 9.60800, mean: 12.13168
+FITNESS - best: 9.60800, mean: 11.59959
+FITNESS - best: 9.60800, mean: 12.09321
+FITNESS - best: 9.60800, mean: 11.69822
+FITNESS - best: 9.60800, mean: 12.66624
+FITNESS - best: 9.60800, mean: 12.94482
+FITNESS - best: 9.60800, mean: 12.10213
+FITNESS - best: 9.60800, mean: 12.01024
+FITNESS - best: 9.60800, mean: 11.68637
+FITNESS - best: 9.60516, mean: 11.67291
+FITNESS - best: 9.60516, mean: 12.13343
+FITNESS - best: 9.60516, mean: 11.61835
+FITNESS - best: 9.60516, mean: 12.46770
+FITNESS - best: 9.60516, mean: 11.27755
+FITNESS - best: 9.60440, mean: 12.23734
+FITNESS - best: 9.60440, mean: 11.26930
+FITNESS - best: 9.60440, mean: 12.60117
+FITNESS - best: 9.60440, mean: 12.65993
+FITNESS - best: 9.60440, mean: 12.82226
+FITNESS - best: 9.60440, mean: 11.91738
+FITNESS - best: 9.60440, mean: 11.88943
+FITNESS - best: 9.60440, mean: 12.82408
+FITNESS - best: 9.60440, mean: 11.19575
+FITNESS - best: 9.60440, mean: 11.83506
+FITNESS - best: 9.60440, mean: 11.84752
+FITNESS - best: 9.60440, mean: 11.98597
+FITNESS - best: 9.60440, mean: 12.17371
+FITNESS - best: 9.60440, mean: 12.33940
+FITNESS - best: 9.60440, mean: 11.09880
+FITNESS - best: 9.60440, mean: 11.41836
+FITNESS - best: 9.60298, mean: 12.64592
+FITNESS - best: 9.60298, mean: 13.09431
+FITNESS - best: 9.60298, mean: 13.54120
+FITNESS - best: 9.60298, mean: 13.26272
+FITNESS - best: 9.60298, mean: 12.05362
+FITNESS - best: 9.60298, mean: 12.30689
+FITNESS - best: 9.60298, mean: 11.92662
+FITNESS - best: 9.60298, mean: 11.41153
+FITNESS - best: 9.60298, mean: 12.08750
+FITNESS - best: 9.60298, mean: 11.97735
+FITNESS - best: 9.60298, mean: 12.04353
+FITNESS - best: 9.60278, mean: 12.01884
+FITNESS - best: 9.60278, mean: 10.78487
+FITNESS - best: 9.60278, mean: 12.59319
+FITNESS - best: 9.60278, mean: 12.39952
+FITNESS - best: 9.60278, mean: 12.25914
+FITNESS - best: 9.60278, mean: 11.68257
+FITNESS - best: 9.60278, mean: 11.07358
+FITNESS - best: 9.60223, mean: 11.87745
+FITNESS - best: 9.60223, mean: 12.73687
+FITNESS - best: 9.60223, mean: 11.95350
+FITNESS - best: 9.60223, mean: 11.39018
+FITNESS - best: 9.60223, mean: 13.35866
+FITNESS - best: 9.60223, mean: 11.73208
+FITNESS - best: 9.60223, mean: 13.70671
+FITNESS - best: 9.60223, mean: 13.03223
+FITNESS - best: 9.60223, mean: 12.78069
+FITNESS - best: 9.60223, mean: 12.10851
+FITNESS - best: 9.60223, mean: 12.02146
+FITNESS - best: 9.60223, mean: 11.80238
+FITNESS - best: 9.60223, mean: 12.57789
+FITNESS - best: 9.60223, mean: 12.68453
+FITNESS - best: 9.60203, mean: 12.25989
+FITNESS - best: 9.60203, mean: 12.07555
+FITNESS - best: 9.60203, mean: 10.97352
+FITNESS - best: 9.60203, mean: 12.26462
+FITNESS - best: 9.60203, mean: 12.07988
+FITNESS - best: 9.60203, mean: 13.10979
+FITNESS - best: 9.60203, mean: 12.96207
+FITNESS - best: 9.60203, mean: 12.44451
+FITNESS - best: 9.60203, mean: 11.45834
+FITNESS - best: 9.60203, mean: 12.88726
+FITNESS - best: 9.60203, mean: 12.06328
+FITNESS - best: 9.60203, mean: 12.45986
+FITNESS - best: 9.60203, mean: 11.56509
+FITNESS - best: 9.60203, mean: 10.57765
+FITNESS - best: 9.60203, mean: 12.16010
+FITNESS - best: 9.60203, mean: 11.87919
+FITNESS - best: 9.60203, mean: 12.13446
+FITNESS - best: 9.60203, mean: 12.39581
+FITNESS - best: 9.60203, mean: 12.69063
+FITNESS - best: 9.60203, mean: 10.89880
+FITNESS - best: 9.60203, mean: 12.07149
+FITNESS - best: 9.60203, mean: 10.96348
+FITNESS - best: 9.60203, mean: 12.63377
+FITNESS - best: 9.60203, mean: 11.70974
+FITNESS - best: 9.60203, mean: 12.22146
+FITNESS - best: 9.60203, mean: 13.17810
+FITNESS - best: 9.60203, mean: 11.39512
+FITNESS - best: 9.60203, mean: 12.48417
+FITNESS - best: 9.60203, mean: 11.05542
+FITNESS - best: 9.60203, mean: 12.29952
+FITNESS - best: 9.60203, mean: 11.23215
+FITNESS - best: 9.60203, mean: 12.62317
+FITNESS - best: 9.60203, mean: 12.47151
+FITNESS - best: 9.60203, mean: 12.34315
+FITNESS - best: 9.59953, mean: 11.20223
+FITNESS - best: 9.59953, mean: 12.34563
+FITNESS - best: 9.59953, mean: 10.83906
+FITNESS - best: 9.59953, mean: 12.57607
+FITNESS - best: 9.59953, mean: 13.62957
+FITNESS - best: 9.59953, mean: 11.43101
+FITNESS - best: 9.59953, mean: 11.73113
+FITNESS - best: 9.59953, mean: 12.30512
+FITNESS - best: 9.59953, mean: 13.45513
+FITNESS - best: 9.59953, mean: 12.51640
+FITNESS - best: 9.59953, mean: 10.84963
+FITNESS - best: 9.59953, mean: 12.55950
+FITNESS - best: 9.59953, mean: 11.60182
+FITNESS - best: 9.59953, mean: 11.23933
+FITNESS - best: 9.59953, mean: 11.61243
+FITNESS - best: 9.59953, mean: 12.43028
+FITNESS - best: 9.59953, mean: 11.92738
+FITNESS - best: 9.59953, mean: 11.78917
+FITNESS - best: 9.59953, mean: 12.51252
+FITNESS - best: 9.59919, mean: 12.32798
+FITNESS - best: 9.59919, mean: 12.39994
+FITNESS - best: 9.59919, mean: 11.88972
+FITNESS - best: 9.59919, mean: 12.28880
+FITNESS - best: 9.59919, mean: 12.00020
+FITNESS - best: 9.59919, mean: 12.91461
+FITNESS - best: 9.59919, mean: 11.21165
+FITNESS - best: 9.59919, mean: 14.05361
+FITNESS - best: 9.59919, mean: 12.96809
+FITNESS - best: 9.59919, mean: 11.67717
+FITNESS - best: 9.59919, mean: 11.30223
+FITNESS - best: 9.59884, mean: 13.28690
+FITNESS - best: 9.59884, mean: 10.78104
+FITNESS - best: 9.59884, mean: 11.80788
+FITNESS - best: 9.59884, mean: 13.08204
+FITNESS - best: 9.59884, mean: 12.61282
+FITNESS - best: 9.59884, mean: 11.09923
+FITNESS - best: 9.59884, mean: 11.48592
+FITNESS - best: 9.59884, mean: 12.29010
+FITNESS - best: 9.59884, mean: 11.70632
+FITNESS - best: 9.59884, mean: 11.38569
+FITNESS - best: 9.59884, mean: 11.84439
+FITNESS - best: 9.59871, mean: 12.36449
+FITNESS - best: 9.59871, mean: 12.32299
+FITNESS - best: 9.59871, mean: 13.20902
+FITNESS - best: 9.59871, mean: 10.64899
+FITNESS - best: 9.59853, mean: 11.97638
+FITNESS - best: 9.59853, mean: 11.66020
+FITNESS - best: 9.59853, mean: 11.43690
+FITNESS - best: 9.59853, mean: 12.43385
+FITNESS - best: 9.59853, mean: 13.09279
+FITNESS - best: 9.59853, mean: 11.54699
+FITNESS - best: 9.59853, mean: 11.29681
+FITNESS - best: 9.59853, mean: 12.83255
+FITNESS - best: 9.59853, mean: 11.37043
+FITNESS - best: 9.59853, mean: 11.69047
+FITNESS - best: 9.59853, mean: 11.87917
+FITNESS - best: 9.59853, mean: 13.40210
+FITNESS - best: 9.59728, mean: 11.58524
+FITNESS - best: 9.59728, mean: 12.59648
+FITNESS - best: 9.59728, mean: 12.72465
+FITNESS - best: 9.59728, mean: 11.89551
+FITNESS - best: 9.59728, mean: 11.34085
+FITNESS - best: 9.59728, mean: 12.28202
+FITNESS - best: 9.59728, mean: 11.51837
+FITNESS - best: 9.59728, mean: 12.69911
+FITNESS - best: 9.59728, mean: 11.66749
+FITNESS - best: 9.59728, mean: 11.54832
+FITNESS - best: 9.59728, mean: 13.05379
+FITNESS - best: 9.59728, mean: 12.36128
+FITNESS - best: 9.59728, mean: 11.35746
+FITNESS - best: 9.59728, mean: 11.05410
+FITNESS - best: 9.59728, mean: 13.42355
+FITNESS - best: 9.59728, mean: 13.12080
+FITNESS - best: 9.59728, mean: 11.19691
+FITNESS - best: 9.59728, mean: 12.47723
+FITNESS - best: 9.59725, mean: 12.53673
+FITNESS - best: 9.59725, mean: 12.14483
+FITNESS - best: 9.59725, mean: 11.38852
+FITNESS - best: 9.59699, mean: 11.31750
+FITNESS - best: 9.59699, mean: 12.24462
+FITNESS - best: 9.59699, mean: 12.08624
+FITNESS - best: 9.59699, mean: 12.21479
+FITNESS - best: 9.59699, mean: 12.52539
+FITNESS - best: 9.59699, mean: 12.17994
+FITNESS - best: 9.59699, mean: 11.66186
+FITNESS - best: 9.59699, mean: 12.42160
+FITNESS - best: 9.59699, mean: 12.27416
+FITNESS - best: 9.59699, mean: 12.27613
+FITNESS - best: 9.59553, mean: 11.65571
+FITNESS - best: 9.59553, mean: 12.09115
+FITNESS - best: 9.59553, mean: 12.37883
+FITNESS - best: 9.59553, mean: 13.07977
+FITNESS - best: 9.59553, mean: 11.51354
+FITNESS - best: 9.59553, mean: 12.24025
+FITNESS - best: 9.59553, mean: 11.81553
+FITNESS - best: 9.59553, mean: 12.20139
+FITNESS - best: 9.59553, mean: 11.81654
+FITNESS - best: 9.59553, mean: 14.08605
+FITNESS - best: 9.59553, mean: 11.63453
+FITNESS - best: 9.59553, mean: 12.18026
+FITNESS - best: 9.59553, mean: 11.28434
+FITNESS - best: 9.59553, mean: 11.11433
+FITNESS - best: 9.59550, mean: 12.28680
+FITNESS - best: 9.59550, mean: 14.05356
+FITNESS - best: 9.59550, mean: 12.60469
+FITNESS - best: 9.59550, mean: 12.16865
+FITNESS - best: 9.59550, mean: 11.73981
+FITNESS - best: 9.59550, mean: 12.69412
+FITNESS - best: 9.59550, mean: 12.47569
+FITNESS - best: 9.59550, mean: 12.11313
+FITNESS - best: 9.59550, mean: 10.75109
+FITNESS - best: 9.59550, mean: 11.19361
+FITNESS - best: 9.59550, mean: 12.38446
+FITNESS - best: 9.59550, mean: 11.66164
+FITNESS - best: 9.59514, mean: 12.47749
+FITNESS - best: 9.59514, mean: 11.36267
+FITNESS - best: 9.59514, mean: 12.11227
+FITNESS - best: 9.59514, mean: 12.08235
+FITNESS - best: 9.59514, mean: 12.13608
+FITNESS - best: 9.59514, mean: 11.81246
+FITNESS - best: 9.59514, mean: 11.64153
+FITNESS - best: 9.59514, mean: 11.63055
+FITNESS - best: 9.59514, mean: 12.07634
+FITNESS - best: 9.59514, mean: 12.31376
+FITNESS - best: 9.59514, mean: 12.34855
+FITNESS - best: 9.59514, mean: 11.44609
+FITNESS - best: 9.59514, mean: 11.24956
+FITNESS - best: 9.59514, mean: 12.23893
+FITNESS - best: 9.59514, mean: 11.73298
+FITNESS - best: 9.59514, mean: 13.47320
+FITNESS - best: 9.59514, mean: 11.59447
+FITNESS - best: 9.59514, mean: 12.71139
+FITNESS - best: 9.59514, mean: 12.17574
+FITNESS - best: 9.59514, mean: 11.15783
+FITNESS - best: 9.59514, mean: 12.14056
+FITNESS - best: 9.59504, mean: 12.65605
+FITNESS - best: 9.59504, mean: 10.66230
+FITNESS - best: 9.59504, mean: 11.46794
+FITNESS - best: 9.59504, mean: 12.91234
+FITNESS - best: 9.59504, mean: 12.48014
+FITNESS - best: 9.59504, mean: 11.01267
+FITNESS - best: 9.59504, mean: 11.34789
+FITNESS - best: 9.59504, mean: 12.13849
+FITNESS - best: 9.59504, mean: 12.52326
+FITNESS - best: 9.59504, mean: 11.13495
+FITNESS - best: 9.59504, mean: 14.70099
+FITNESS - best: 9.59504, mean: 14.18146
+FITNESS - best: 9.59504, mean: 11.96160
+FITNESS - best: 9.59504, mean: 11.09195
+FITNESS - best: 9.59487, mean: 12.82672
+FITNESS - best: 9.59487, mean: 11.70012
+FITNESS - best: 9.59487, mean: 12.59457
+FITNESS - best: 9.59487, mean: 12.35015
+FITNESS - best: 9.59390, mean: 11.69664
+FITNESS - best: 9.59390, mean: 12.80713
+FITNESS - best: 9.59390, mean: 11.46816
+FITNESS - best: 9.59390, mean: 11.60894
+FITNESS - best: 9.59390, mean: 11.25319
+FITNESS - best: 9.59390, mean: 12.48159
+FITNESS - best: 9.59390, mean: 14.25703
+FITNESS - best: 9.59390, mean: 12.62106
+FITNESS - best: 9.59315, mean: 11.63899
+FITNESS - best: 9.59289, mean: 10.99295
+FITNESS - best: 9.59289, mean: 12.42350
+FITNESS - best: 9.59289, mean: 11.12890
+FITNESS - best: 9.59289, mean: 11.89611
+FITNESS - best: 9.59289, mean: 12.34596
+FITNESS - best: 9.59289, mean: 11.50429
+FITNESS - best: 9.59289, mean: 11.35563
+FITNESS - best: 9.59289, mean: 11.83975
+FITNESS - best: 9.59289, mean: 12.32869
+FITNESS - best: 9.59289, mean: 12.10269
+FITNESS - best: 9.59289, mean: 12.47914
+FITNESS - best: 9.59289, mean: 12.72811
+FITNESS - best: 9.59289, mean: 11.48875
+FITNESS - best: 9.59289, mean: 11.79743
+FITNESS - best: 9.59289, mean: 12.84129
+FITNESS - best: 9.59289, mean: 13.04496
+FITNESS - best: 9.59289, mean: 11.89950
+FITNESS - best: 9.59121, mean: 12.30499
+FITNESS - best: 9.59121, mean: 11.69520
+FITNESS - best: 9.59121, mean: 12.28929
+FITNESS - best: 9.59121, mean: 12.10637
+FITNESS - best: 9.59121, mean: 12.99365
+FITNESS - best: 9.59121, mean: 12.24397
+FITNESS - best: 9.59121, mean: 11.42758
+FITNESS - best: 9.59121, mean: 12.69393
+FITNESS - best: 9.59121, mean: 11.88015
+FITNESS - best: 9.59121, mean: 12.33264
+FITNESS - best: 9.59121, mean: 12.53277
+FITNESS - best: 9.59121, mean: 12.93077
+FITNESS - best: 9.59121, mean: 11.94021
+FITNESS - best: 9.59121, mean: 12.77271
+FITNESS - best: 9.59121, mean: 12.43218
+FITNESS - best: 9.59121, mean: 12.53254
+FITNESS - best: 9.59121, mean: 13.09207
+FITNESS - best: 9.59121, mean: 11.65017
+FITNESS - best: 9.59121, mean: 11.25282
+FITNESS - best: 9.59100, mean: 11.32785
+FITNESS - best: 9.59100, mean: 11.80934
+FITNESS - best: 9.59100, mean: 11.85735
+FITNESS - best: 9.59100, mean: 12.21381
+FITNESS - best: 9.59100, mean: 11.80601
+FITNESS - best: 9.59100, mean: 11.79123
+FITNESS - best: 9.59100, mean: 12.29938
+FITNESS - best: 9.59100, mean: 13.49515
+FITNESS - best: 9.59100, mean: 11.75888
+FITNESS - best: 9.59100, mean: 11.65542
+FITNESS - best: 9.59100, mean: 12.94714
+FITNESS - best: 9.59100, mean: 12.64277
+FITNESS - best: 9.59100, mean: 12.47470
+FITNESS - best: 9.59058, mean: 11.14556
+FITNESS - best: 9.59058, mean: 12.28032
+FITNESS - best: 9.59058, mean: 11.04755
+FITNESS - best: 9.59058, mean: 12.10161
+FITNESS - best: 9.59058, mean: 11.73858
+FITNESS - best: 9.59058, mean: 11.29223
+FITNESS - best: 9.59058, mean: 12.59302
+FITNESS - best: 9.59058, mean: 11.21385
+FITNESS - best: 9.59058, mean: 11.68438
+FITNESS - best: 9.59058, mean: 13.17279
+FITNESS - best: 9.59058, mean: 11.11925
+FITNESS - best: 9.59058, mean: 11.25509
+FITNESS - best: 9.59058, mean: 11.30155
+FITNESS - best: 9.59057, mean: 11.34597
+FITNESS - best: 9.59057, mean: 11.91542
+FITNESS - best: 9.59057, mean: 11.89004
+FITNESS - best: 9.59057, mean: 11.53365
+FITNESS - best: 9.59057, mean: 12.49728
+FITNESS - best: 9.59057, mean: 13.94410
+FITNESS - best: 9.59057, mean: 12.93570
+FITNESS - best: 9.59057, mean: 11.56962
+FITNESS - best: 9.59057, mean: 11.52254
+FITNESS - best: 9.59057, mean: 12.26522
+FITNESS - best: 9.59057, mean: 11.39170
+FITNESS - best: 9.59057, mean: 12.81763
+FITNESS - best: 9.59057, mean: 11.76349
+FITNESS - best: 9.59057, mean: 12.25268
+FITNESS - best: 9.59057, mean: 12.74494
+FITNESS - best: 9.59057, mean: 11.12680
+FITNESS - best: 9.59057, mean: 12.64765
+FITNESS - best: 9.59057, mean: 11.83564
+FITNESS - best: 9.59057, mean: 11.60780
+FITNESS - best: 9.59057, mean: 12.17195
+FITNESS - best: 9.59057, mean: 11.40503
+FITNESS - best: 9.59057, mean: 12.03280
+FITNESS - best: 9.59057, mean: 12.13800
+FITNESS - best: 9.59057, mean: 11.17178
+FITNESS - best: 9.59057, mean: 12.33356
+FITNESS - best: 9.59057, mean: 11.50495
+FITNESS - best: 9.59057, mean: 12.29116
+FITNESS - best: 9.59057, mean: 11.69757
+FITNESS - best: 9.59057, mean: 12.18468
+FITNESS - best: 9.59057, mean: 11.92802
+FITNESS - best: 9.59057, mean: 12.33333
+FITNESS - best: 9.59057, mean: 11.87293
+FITNESS - best: 9.59057, mean: 11.61078
+FITNESS - best: 9.59057, mean: 12.49142
+FITNESS - best: 9.59057, mean: 11.27570
+FITNESS - best: 9.59057, mean: 10.74184
+FITNESS - best: 9.59057, mean: 12.84276
+FITNESS - best: 9.59057, mean: 11.71849
+FITNESS - best: 9.59057, mean: 12.51162
+FITNESS - best: 9.59057, mean: 12.29134
+FITNESS - best: 9.59057, mean: 13.05878
+FITNESS - best: 9.59057, mean: 12.42162
+FITNESS - best: 9.59057, mean: 12.28619
+FITNESS - best: 9.59057, mean: 13.51154
+FITNESS - best: 9.59057, mean: 11.73887
+FITNESS - best: 9.59057, mean: 11.81037
+FITNESS - best: 9.59057, mean: 11.07788
+FITNESS - best: 9.59057, mean: 12.19712
+FITNESS - best: 9.59057, mean: 12.27174
+FITNESS - best: 9.59057, mean: 11.94466
+FITNESS - best: 9.59057, mean: 11.48151
+FITNESS - best: 9.59057, mean: 11.70401
+FITNESS - best: 9.59057, mean: 11.74402
+FITNESS - best: 9.59057, mean: 12.58559
+FITNESS - best: 9.59057, mean: 11.74596
+FITNESS - best: 9.59057, mean: 14.58456
+FITNESS - best: 9.59057, mean: 12.82786
+FITNESS - best: 9.59057, mean: 13.85475
+FITNESS - best: 9.59057, mean: 12.13896
+FITNESS - best: 9.59057, mean: 12.71130
+FITNESS - best: 9.59057, mean: 12.13293
+FITNESS - best: 9.59057, mean: 12.92740
+FITNESS - best: 9.59057, mean: 11.42969
+FITNESS - best: 9.59057, mean: 11.47280
+FITNESS - best: 9.59057, mean: 11.15551
+FITNESS - best: 9.59057, mean: 11.64282
+FITNESS - best: 9.59057, mean: 10.62711
+FITNESS - best: 9.59057, mean: 12.29433
+FITNESS - best: 9.59057, mean: 11.37677
+FITNESS - best: 9.59057, mean: 11.51840
+FITNESS - best: 9.59057, mean: 13.08044
+FITNESS - best: 9.59057, mean: 11.73576
+FITNESS - best: 9.59057, mean: 13.16745
+FITNESS - best: 9.59057, mean: 12.32208
+FITNESS - best: 9.59057, mean: 12.29760
+FITNESS - best: 9.59057, mean: 12.23930
+FITNESS - best: 9.59057, mean: 11.57026
+FITNESS - best: 9.59057, mean: 12.13539
+FITNESS - best: 9.59057, mean: 12.41278
+FITNESS - best: 9.59057, mean: 13.41399
+FITNESS - best: 9.59057, mean: 10.70773
+FITNESS - best: 9.59057, mean: 13.50427
+FITNESS - best: 9.59057, mean: 13.21194
+FITNESS - best: 9.59057, mean: 11.86815
+FITNESS - best: 9.59057, mean: 11.44766
+FITNESS - best: 9.59057, mean: 11.94150
+FITNESS - best: 9.59057, mean: 15.22234
+FITNESS - best: 9.59057, mean: 13.69765
+FITNESS - best: 9.59047, mean: 11.31504
+FITNESS - best: 9.59047, mean: 12.07998
+FITNESS - best: 9.59047, mean: 11.97296
+FITNESS - best: 9.59047, mean: 12.18803
+FITNESS - best: 9.59047, mean: 11.11953
+FITNESS - best: 9.59047, mean: 13.35834
+FITNESS - best: 9.59047, mean: 10.70576
+FITNESS - best: 9.59047, mean: 12.06043
+FITNESS - best: 9.59047, mean: 11.59872
+FITNESS - best: 9.59047, mean: 11.77216
+FITNESS - best: 9.59047, mean: 12.31227
+FITNESS - best: 9.59047, mean: 12.12906
+FITNESS - best: 9.59047, mean: 11.54323
+FITNESS - best: 9.59047, mean: 11.65318
+FITNESS - best: 9.59047, mean: 12.10482
+FITNESS - best: 9.59047, mean: 10.96676
+FITNESS - best: 9.59047, mean: 11.45662
+FITNESS - best: 9.59047, mean: 12.15565
+FITNESS - best: 9.59047, mean: 12.45318
+FITNESS - best: 9.59047, mean: 12.07838
+FITNESS - best: 9.59047, mean: 12.44802
+FITNESS - best: 9.59047, mean: 13.25395
+FITNESS - best: 9.59047, mean: 13.41899
+FITNESS - best: 9.59047, mean: 11.63258
+FITNESS - best: 9.59047, mean: 11.41399
+FITNESS - best: 9.59047, mean: 11.88975
+FITNESS - best: 9.59047, mean: 12.25262
+FITNESS - best: 9.59047, mean: 13.43001
+FITNESS - best: 9.59047, mean: 11.81104
+FITNESS - best: 9.59047, mean: 11.17034
+FITNESS - best: 9.59047, mean: 12.48138
+FITNESS - best: 9.59047, mean: 13.24064
+FITNESS - best: 9.59047, mean: 11.81933
+FITNESS - best: 9.59047, mean: 11.75561
+FITNESS - best: 9.59047, mean: 12.83680
+FITNESS - best: 9.59047, mean: 11.54907
+FITNESS - best: 9.59047, mean: 12.03888
+FITNESS - best: 9.59047, mean: 11.33075
+FITNESS - best: 9.59047, mean: 12.27452
+FITNESS - best: 9.59047, mean: 11.57239
+FITNESS - best: 9.59047, mean: 11.61522
+FITNESS - best: 9.59047, mean: 12.10395
+FITNESS - best: 9.59047, mean: 11.54152
+FITNESS - best: 9.59047, mean: 12.54327
+FITNESS - best: 9.59047, mean: 11.95711
+FITNESS - best: 9.59047, mean: 11.59155
+FITNESS - best: 9.59047, mean: 11.76228
+FITNESS - best: 9.59047, mean: 11.59380
+FITNESS - best: 9.59047, mean: 12.78906
+FITNESS - best: 9.59047, mean: 11.58265
+FITNESS - best: 9.59047, mean: 11.09494
+FITNESS - best: 9.59047, mean: 11.89336
+FITNESS - best: 9.59047, mean: 11.57639
+FITNESS - best: 9.59047, mean: 12.70451
+FITNESS - best: 9.59047, mean: 10.92832
+FITNESS - best: 9.59047, mean: 12.23745
+FITNESS - best: 9.59047, mean: 13.01859
+FITNESS - best: 9.59047, mean: 11.14586
+FITNESS - best: 9.59047, mean: 11.68017
+FITNESS - best: 9.59047, mean: 11.93758
+FITNESS - best: 9.59047, mean: 12.81928
+FITNESS - best: 9.59047, mean: 11.78776
+FITNESS - best: 9.59047, mean: 11.25852
+FITNESS - best: 9.59047, mean: 11.77550
+FITNESS - best: 9.59047, mean: 11.19108
+FITNESS - best: 9.59047, mean: 12.02533
+FITNESS - best: 9.59047, mean: 12.46888
+FITNESS - best: 9.59047, mean: 12.06444
+FITNESS - best: 9.59047, mean: 12.33250
+FITNESS - best: 9.59039, mean: 11.13473
+FITNESS - best: 9.59039, mean: 12.25790
+FITNESS - best: 9.59024, mean: 12.68836
+FITNESS - best: 9.59024, mean: 13.16104
+FITNESS - best: 9.59024, mean: 11.89604
+FITNESS - best: 9.59024, mean: 11.07152
+FITNESS - best: 9.59024, mean: 11.42084
+FITNESS - best: 9.59024, mean: 12.00633
+FITNESS - best: 9.59024, mean: 12.26162
+FITNESS - best: 9.59024, mean: 12.62160
+FITNESS - best: 9.59024, mean: 13.02110
+FITNESS - best: 9.59024, mean: 11.68209
+FITNESS - best: 9.59024, mean: 11.51962
+FITNESS - best: 9.59024, mean: 13.95080
+FITNESS - best: 9.59024, mean: 13.65083
+FITNESS - best: 9.59024, mean: 12.55208
+FITNESS - best: 9.59024, mean: 11.97333
+FITNESS - best: 9.59024, mean: 12.55791
+FITNESS - best: 9.59024, mean: 11.51391
+FITNESS - best: 9.59024, mean: 12.44119
+FITNESS - best: 9.59024, mean: 12.81278
+FITNESS - best: 9.59024, mean: 11.86936
+FITNESS - best: 9.59023, mean: 14.00317
+FITNESS - best: 9.59023, mean: 11.55165
+FITNESS - best: 9.59023, mean: 11.29838
+FITNESS - best: 9.59023, mean: 12.42575
+FITNESS - best: 9.59023, mean: 12.29038
+FITNESS - best: 9.59023, mean: 11.81039
+FITNESS - best: 9.59023, mean: 11.49074
+FITNESS - best: 9.59023, mean: 12.47114
+FITNESS - best: 9.59023, mean: 12.84299
+FITNESS - best: 9.59023, mean: 10.89563
+FITNESS - best: 9.59023, mean: 12.35753
+FITNESS - best: 9.59023, mean: 11.58967
+FITNESS - best: 9.59023, mean: 12.63084
+FITNESS - best: 9.59023, mean: 12.93359
+FITNESS - best: 9.59023, mean: 11.24678
+FITNESS - best: 9.59023, mean: 11.69309
+FITNESS - best: 9.59023, mean: 12.10136
+FITNESS - best: 9.59015, mean: 12.04192
+FITNESS - best: 9.59015, mean: 12.21110
+FITNESS - best: 9.59015, mean: 12.82652
+FITNESS - best: 9.59015, mean: 11.44968
+FITNESS - best: 9.59015, mean: 11.04247
+FITNESS - best: 9.59015, mean: 11.66165
+FITNESS - best: 9.59015, mean: 13.55650
+FITNESS - best: 9.59015, mean: 11.51592
+FITNESS - best: 9.59015, mean: 11.89506
+FITNESS - best: 9.59015, mean: 12.36951
+FITNESS - best: 9.59004, mean: 11.47977
+FITNESS - best: 9.59004, mean: 12.17451
+FITNESS - best: 9.59004, mean: 11.73693
+FITNESS - best: 9.59004, mean: 11.84574
+FITNESS - best: 9.59004, mean: 13.04357
+FITNESS - best: 9.59001, mean: 12.49975
+FITNESS - best: 9.59001, mean: 12.39005
+FITNESS - best: 9.59001, mean: 12.53146
+FITNESS - best: 9.59001, mean: 13.31285
+FITNESS - best: 9.59001, mean: 12.15682
+FITNESS - best: 9.59001, mean: 11.48167
+FITNESS - best: 9.58989, mean: 11.65706
+FITNESS - best: 9.58989, mean: 12.75200
+FITNESS - best: 9.58989, mean: 13.17459
+FITNESS - best: 9.58989, mean: 12.18780
+FITNESS - best: 9.58989, mean: 11.97187
+FITNESS - best: 9.58989, mean: 11.05385
+FITNESS - best: 9.58989, mean: 11.14539
+FITNESS - best: 9.58989, mean: 12.66417
+FITNESS - best: 9.58989, mean: 11.54022
+FITNESS - best: 9.58989, mean: 12.52632
+FITNESS - best: 9.58989, mean: 11.75684
+FITNESS - best: 9.58989, mean: 12.06450
+FITNESS - best: 9.58989, mean: 12.50284
+FITNESS - best: 9.58989, mean: 12.06592
+record 1	 prediction:   -17581	actual:    12094	difference:  -245%
+record 2	 prediction:    11104	actual:     9504	difference:    16%
+record 3	 prediction:    34738	actual:    37270	difference:    -6%
+record 4	 prediction:    -5747	actual:     3201	difference:  -279%
+record 5	 prediction:    19970	actual:    42112	difference:   -52%
+record 6	 prediction:   -11178	actual:     3167	difference:  -452%
+record 7	 prediction:   -13105	actual:     7153	difference:  -283%
+record 8	 prediction:   -10411	actual:     1837	difference:  -666%
+record 9	 prediction:    -1944	actual:     2585	difference:  -175%
+record 10	 prediction:   -10678	actual:     2201	difference:  -585%
