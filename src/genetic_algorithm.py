@@ -3,6 +3,7 @@ import numpy as np
 import random
 
 class GeneticAlgorithm:
+    # initialise with our parameters, and a randomised starting population
     def __init__(self, parameters, features, labels, test_features, test_labels):
         self.population_size = parameters["population_size"]
         self.breeding_ratio = 1 / parameters["breeding_rate"]
@@ -10,6 +11,7 @@ class GeneticAlgorithm:
         self.mutation_rate = parameters["mutation_rate"]
         self.mutation_range = parameters["mutation_range"]
         self.generations = parameters["generations"]
+        self.stochastic_parent_selection = parameters["select_parents_stochastically"]
 
         self.feature_length = features.shape[1]
         self.generation = 0
@@ -17,6 +19,8 @@ class GeneticAlgorithm:
 
         self.features = features
         self.labels = labels
+        self.test_features = test_features
+        self.test_labels = test_labels
         self.population = pd.Series([self._random_chromosome() for i in range(self.population_size)])
 
     # PUBLIC
@@ -24,10 +28,12 @@ class GeneticAlgorithm:
     def fit(self):
         # calculate fitnesses here for initial state
         self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
+        self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_test_fitness(chromosome))
         for i in range(self.generations):
             self._next_generation()
             self.generation += 1
             self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
+            self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_test_fitness(chromosome))
             self._update_progress()
 
     def predict(self, features):
@@ -38,7 +44,7 @@ class GeneticAlgorithm:
 
     # for debugging
     def print_progress(self):
-        display = lambda p: print('FITNESS - best: {:.5f}, mean: {:.5f}'.format(p[0], p[1]))
+        display = lambda p: print('FITNESS - train_best: {:.2f}, train_mean: {:.2f}, test_best: {:.2f}, test_mean: {:.2f}'.format(p[0], p[1], p[2], p[3]))
         [display(p) for p in self.training_progress]
 
     # PRIVATE
@@ -48,24 +54,47 @@ class GeneticAlgorithm:
         return np.array([random.random() for c in range(shape_cols)])
 
     def _next_generation(self):
-        weakest, middle, parents = self._divide_population()
-        offspring = self._breed(parents)
-        self.population = pd.concat([middle, parents, offspring], ignore_index=True)
+        if self.stochastic_parent_selection:
+            survivors, parents = self._divide_population_stochastically()
+        else:
+            survivors, parents = self._divide_population()
 
-    # TODO: (optional) select parents stochastically, based on fitness, rather than just taking the best ones
-    def _divide_population(self):
+        offspring = self._breed(parents)
+        self.population = pd.concat([survivors, parents, offspring], ignore_index=True)
+
+    def _divide_population_stochastically(self):
+        # This approach selects parents stochastically based on their fitness
         parent_count = int(len(self.population) / self.breeding_ratio)
+        perish_count = parent_count
+        survivor_count = len(self.population) - parent_count - perish_count
 
         sorted_fitnesses = self.fitnesses.sort_values('charges')
-        parents = self.population[sorted_fitnesses[:parent_count].index]
-        middle = self.population[sorted_fitnesses[parent_count:-parent_count].index]
-        weakest = self.population[sorted_fitnesses[-parent_count:].index]
+        selected_fitnesses = sorted_fitnesses[:-perish_count]
+        survivors_fitnesses = selected_fitnesses.sample(survivor_count, weights='charges')
+        parents_fitnesses = selected_fitnesses[~selected_fitnesses.index.isin(survivors_fitnesses.index)]
 
-        return weakest, middle, parents
+        survivors = self.population[survivors_fitnesses.index]
+        parents = self.population[parents_fitnesses.index]
+        return survivors, parents
+
+    def _divide_population(self):
+        # simply select the fittest chromosomes to be parents, cull the weakest
+        parent_count = int(len(self.population) / self.breeding_ratio)
+        sorted_fitnesses = self.fitnesses.sort_values('charges')
+        parents = self.population[sorted_fitnesses[:parent_count].index]
+        survivors = self.population[sorted_fitnesses[parent_count:-parent_count].index]
+
+        return survivors, parents
 
     def _chromosome_fitness(self, chromosome):
         predictions = np.dot(self.features, chromosome)
         differences = pd.DataFrame(self.labels.charges - predictions)
+        squared_differences = differences.apply(lambda diff: diff ** 2)
+        return squared_differences.sum()
+
+    def _chromosome_test_fitness(self, chromosome):
+        predictions = np.dot(self.test_features, chromosome)
+        differences = pd.DataFrame(self.test_labels.charges - predictions)
         squared_differences = differences.apply(lambda diff: diff ** 2)
         return squared_differences.sum()
 
@@ -108,7 +137,11 @@ class GeneticAlgorithm:
 
     # update our progress store, inform the user where we are at
     def _update_progress(self):
-        self.training_progress.append((self.fitnesses.values.min(), self.fitnesses.values.mean()))
-        # TODO: assess quality against test
+        self.training_progress.append((
+            self.fitnesses.values.min(),
+            self.fitnesses.values.mean(),
+            self.test_fitnesses.values.min(),
+            self.test_fitnesses.values.mean(),
+        ))
         print('Generation: {}/{}'.format(self.generation, self.generations))
 
