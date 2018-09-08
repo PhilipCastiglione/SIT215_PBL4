@@ -25,17 +25,20 @@ class GeneticAlgorithm:
 
     # PUBLIC
 
+    # fit weights of our algorithm, by evolving the population, to the problem
     def fit(self):
         # calculate fitnesses here for initial state
-        self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
-        self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_test_fitness(chromosome))
+        self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome, self.features, self.labels))
+        self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome, self.test_features, self.test_labels))
         for i in range(self.generations):
             self._next_generation()
             self.generation += 1
-            self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome))
-            self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_test_fitness(chromosome))
+            self.fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome, self.features, self.labels))
+            self.test_fitnesses = self.population.apply(lambda chromosome: self._chromosome_fitness(chromosome, self.test_features, self.test_labels))
             self._update_progress()
 
+    # use to take the best chromosome in the current population (after training) to make
+    # predictions over a set of features
     def predict(self, features):
         best_chromosome_idx = self.fitnesses.idxmax()
         best_chromosome = self.population.iloc[best_chromosome_idx].values[0]
@@ -49,10 +52,12 @@ class GeneticAlgorithm:
 
     # PRIVATE
 
+    # produce a random chromosome, which is a set of weights to map against the feature set
     def _random_chromosome(self):
         _, shape_cols = self.features.shape
         return np.array([random.random() for c in range(shape_cols)])
 
+    # evolve the current generation - the heart of the genetic algorithm
     def _next_generation(self):
         if self.stochastic_parent_selection:
             survivors, parents = self._divide_population_stochastically()
@@ -62,8 +67,8 @@ class GeneticAlgorithm:
         offspring = self._breed(parents)
         self.population = pd.concat([survivors, parents, offspring], ignore_index=True)
 
+    # this approach selects parents stochastically, weighted based on their fitness
     def _divide_population_stochastically(self):
-        # This approach selects parents stochastically based on their fitness
         parent_count = int(len(self.population) / self.breeding_ratio)
         perish_count = parent_count
         survivor_count = len(self.population) - parent_count - perish_count
@@ -77,8 +82,8 @@ class GeneticAlgorithm:
         parents = self.population[parents_fitnesses.index]
         return survivors, parents
 
+    # simply select the fittest chromosomes to be parents, cull the weakest
     def _divide_population(self):
-        # simply select the fittest chromosomes to be parents, cull the weakest
         parent_count = int(len(self.population) / self.breeding_ratio)
         sorted_fitnesses = self.fitnesses.sort_values('charges')
         parents = self.population[sorted_fitnesses[:parent_count].index]
@@ -86,18 +91,7 @@ class GeneticAlgorithm:
 
         return survivors, parents
 
-    def _chromosome_fitness(self, chromosome):
-        predictions = np.dot(self.features, chromosome)
-        differences = pd.DataFrame(self.labels.charges - predictions)
-        squared_differences = differences.apply(lambda diff: diff ** 2)
-        return squared_differences.sum()
-
-    def _chromosome_test_fitness(self, chromosome):
-        predictions = np.dot(self.test_features, chromosome)
-        differences = pd.DataFrame(self.test_labels.charges - predictions)
-        squared_differences = differences.apply(lambda diff: diff ** 2)
-        return squared_differences.sum()
-
+    # breed parents, producing an equal number of children
     def _breed(self, parents):
         pair_count = int(len(parents) / 2)
         couples = list(zip(parents[:pair_count], parents[pair_count:]))
@@ -110,6 +104,8 @@ class GeneticAlgorithm:
         children = self._mutate(children)
         return children
 
+    # performs crossover on a set of couples of parents to generate offspring based on
+    # those parents
     def _crossover(self, couples):
         def crossed_children(couple):
             x_point = 0 if random.random() > self.crossover_rate else random.randrange(0, self.feature_length + 1)
@@ -126,14 +122,23 @@ class GeneticAlgorithm:
 
         return pd.Series(children)
 
-    def _mutate(self, children):
-        def mutate(child):
+    # randomly mutates particular genes for a set of chromosomes
+    def _mutate(self, chromosomes):
+        def mutate(chromosome):
             mutation = lambda: 0 if random.random() > self.mutation_rate else random.uniform(-self.mutation_range, self.mutation_range)
 
             mutations = np.array([mutation() for i in range(self.feature_length)])
-            return child - mutations
+            return chromosome - mutations
 
-        return children.apply(lambda c: mutate(c))
+        return chromosomes.apply(lambda c: mutate(c))
+
+    # calculates the fitness of a chromosome over a set of features and labels using
+    # the sum of squared differences
+    def _chromosome_fitness(self, chromosome, features, labels):
+        predictions = np.dot(features, chromosome)
+        differences = pd.DataFrame(labels.charges - predictions)
+        squared_differences = differences.apply(lambda diff: diff ** 2)
+        return squared_differences.sum()
 
     # update our progress store, inform the user where we are at
     def _update_progress(self):
@@ -143,5 +148,5 @@ class GeneticAlgorithm:
             self.test_fitnesses.values.min(),
             self.test_fitnesses.values.mean(),
         ))
-        print('Generation: {}/{}'.format(self.generation, self.generations))
+        # print('Generation: {}/{}'.format(self.generation, self.generations)) # debug
 

@@ -13,7 +13,8 @@ deps
 # TODO
 
 - readme
-- comments
-- maybe implement drift?
-- tune hyper parameters
 - chart training results
+
+# notes:
+
+random seeding makes a difference; does erode over larger generation and population sizes

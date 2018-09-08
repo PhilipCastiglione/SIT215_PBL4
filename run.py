@@ -1,6 +1,7 @@
 from src.driver import Driver
 from src.medical_cost import MedicalCost
 
+# takes parameters and performs a run of training and predictions
 def single_run(params):
     print(params)
     medical_cost = MedicalCost()
@@ -11,14 +12,16 @@ def single_run(params):
     inputs = medical_cost.data.sample(10)
     driver.predict(inputs)
 
+# used for a grid search over hyperparameters, performing training runs
+# over the provided combinations - for optimisation of hyperparameters
 def grid_search():
-    generations = [150, 150, 150] # settled for test, more is better but drops off fast
-    population_sizes = [200] # settled for test, more is better but drops off fast
-    breeding_rates = [0.4] # so far, .4 is better
-    crossover_rates = [0.85, 0.875, 0.9, 0.925, 0.95, 0.975] # so far, higher is better (0.9)
-    mutation_rates = [0.2] # so far, higher is better (0.2)
-    mutation_ranges = [0.1] # .1 seems better than .2, not super conclusive
-    stochastic_selection = [True] # settled
+    generations = [50, 100, 250]
+    population_sizes = [50, 100, 200]
+    breeding_rates = [0.2, 0.3, 0.4]
+    crossover_rates = [0.7, 0.8, 0.9]
+    mutation_rates = [0.1, 0.2, 0.3]
+    mutation_ranges = [0.1, 0.2, 0.3]
+    stochastic_selection = [True, False]
 
     for generation in generations:
         for population_size in population_sizes:
@@ -42,18 +45,19 @@ def grid_search():
 # and choose whether to initiate a single run or a grid
 # search over the hyperparameters, for optimisation
 if __name__ == '__main__':
-    use_grid_search = True
+    # this toggle is available for the hyperparameter grid search
+    use_grid_search = False
 
     if use_grid_search:
         grid_search()
     else:
         params = {
-            "generations": 10,
-            "population_size": 10,
-            "breeding_rate": 0.4,
-            "crossover_rate": 0.8,
-            'mutation_rate': 0.15,
-            'mutation_range': 0.2,
+            "generations": 1000,
+            "population_size": 1000,
+            "breeding_rate": 0.3,
+            "crossover_rate": 0.9,
+            'mutation_rate': 0.1,
+            'mutation_range': 0.1,
             'select_parents_stochastically': True,
         }
         single_run(params)
