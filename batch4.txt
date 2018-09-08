@@ -1,0 +1,10 @@
+{'generations': 150, 'population_size': 100, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 9.82, train_mean: 13.85, test_best: 2.90, test_mean: 4.37
+{'generations': 150, 'population_size': 200, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 9.50, train_mean: 16.24, test_best: 3.00, test_mean: 5.36
+{'generations': 150, 'population_size': 300, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 9.22, train_mean: 15.45, test_best: 3.27, test_mean: 5.40
+{'generations': 150, 'population_size': 400, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 8.86, train_mean: 14.21, test_best: 3.70, test_mean: 5.53
+{'generations': 150, 'population_size': 500, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 9.38, train_mean: 15.19, test_best: 3.17, test_mean: 5.07

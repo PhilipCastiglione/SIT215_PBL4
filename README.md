@@ -14,7 +14,6 @@ deps
 
 - readme
 - comments
-- select parents stochastically, rather than always choosing best
-- store progress against test as well as train data, for QA
+- maybe implement drift?
+- tune hyper parameters
 - chart training results
-- tune hyper parameters - maybe build a way to do this faster/in batches or something

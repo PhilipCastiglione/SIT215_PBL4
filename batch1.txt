@@ -1,0 +1,666 @@
+{'generations': 100, 'population_size': 50, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 1213.43, train_mean: 4101.33, test_best: 407.22, test_mean: 1387.51
+FITNESS - train_best: 1130.23, train_mean: 3339.39, test_best: 374.56, test_mean: 1135.50
+FITNESS - train_best: 1130.23, train_mean: 2675.26, test_best: 374.56, test_mean: 907.90
+FITNESS - train_best: 553.67, train_mean: 2156.22, test_best: 179.27, test_mean: 729.55
+FITNESS - train_best: 553.67, train_mean: 1661.12, test_best: 179.27, test_mean: 557.94
+FITNESS - train_best: 553.67, train_mean: 1352.83, test_best: 179.27, test_mean: 449.88
+FITNESS - train_best: 553.67, train_mean: 1170.94, test_best: 179.27, test_mean: 389.50
+FITNESS - train_best: 340.09, train_mean: 962.55, test_best: 117.16, test_mean: 323.34
+FITNESS - train_best: 310.47, train_mean: 802.72, test_best: 107.69, test_mean: 271.54
+FITNESS - train_best: 310.47, train_mean: 642.12, test_best: 106.81, test_mean: 218.39
+FITNESS - train_best: 224.86, train_mean: 504.82, test_best: 74.23, test_mean: 170.77
+FITNESS - train_best: 166.53, train_mean: 417.20, test_best: 55.43, test_mean: 141.95
+FITNESS - train_best: 166.53, train_mean: 328.53, test_best: 55.43, test_mean: 111.74
+FITNESS - train_best: 94.38, train_mean: 280.17, test_best: 32.78, test_mean: 94.20
+FITNESS - train_best: 73.82, train_mean: 222.47, test_best: 26.27, test_mean: 75.72
+FITNESS - train_best: 73.82, train_mean: 186.78, test_best: 26.27, test_mean: 63.13
+FITNESS - train_best: 73.64, train_mean: 163.56, test_best: 24.99, test_mean: 55.69
+FITNESS - train_best: 64.06, train_mean: 141.80, test_best: 21.92, test_mean: 48.38
+FITNESS - train_best: 44.35, train_mean: 117.44, test_best: 16.01, test_mean: 40.22
+FITNESS - train_best: 44.35, train_mean: 99.20, test_best: 16.01, test_mean: 33.90
+FITNESS - train_best: 44.35, train_mean: 82.24, test_best: 15.96, test_mean: 28.25
+FITNESS - train_best: 43.17, train_mean: 71.66, test_best: 15.96, test_mean: 24.55
+FITNESS - train_best: 43.17, train_mean: 66.64, test_best: 15.96, test_mean: 23.17
+FITNESS - train_best: 42.08, train_mean: 58.88, test_best: 13.23, test_mean: 20.41
+FITNESS - train_best: 38.35, train_mean: 59.49, test_best: 12.88, test_mean: 20.66
+FITNESS - train_best: 28.09, train_mean: 61.65, test_best: 8.24, test_mean: 21.83
+FITNESS - train_best: 28.09, train_mean: 52.08, test_best: 8.24, test_mean: 18.01
+FITNESS - train_best: 28.09, train_mean: 46.99, test_best: 8.24, test_mean: 16.35
+FITNESS - train_best: 28.09, train_mean: 45.69, test_best: 8.24, test_mean: 15.95
+FITNESS - train_best: 28.09, train_mean: 45.67, test_best: 8.24, test_mean: 15.91
+FITNESS - train_best: 28.09, train_mean: 46.44, test_best: 8.24, test_mean: 16.10
+FITNESS - train_best: 28.09, train_mean: 42.94, test_best: 8.24, test_mean: 14.97
+FITNESS - train_best: 28.09, train_mean: 40.25, test_best: 8.24, test_mean: 13.77
+FITNESS - train_best: 18.32, train_mean: 38.63, test_best: 5.75, test_mean: 13.03
+FITNESS - train_best: 18.32, train_mean: 34.17, test_best: 5.75, test_mean: 11.29
+FITNESS - train_best: 16.69, train_mean: 36.12, test_best: 5.18, test_mean: 11.87
+FITNESS - train_best: 16.69, train_mean: 33.54, test_best: 5.18, test_mean: 10.94
+FITNESS - train_best: 16.69, train_mean: 33.93, test_best: 5.18, test_mean: 10.95
+FITNESS - train_best: 16.69, train_mean: 30.18, test_best: 5.18, test_mean: 9.83
+FITNESS - train_best: 16.69, train_mean: 33.15, test_best: 5.18, test_mean: 10.58
+FITNESS - train_best: 16.69, train_mean: 31.09, test_best: 5.18, test_mean: 10.16
+FITNESS - train_best: 16.69, train_mean: 25.47, test_best: 5.18, test_mean: 8.22
+FITNESS - train_best: 16.69, train_mean: 25.41, test_best: 5.18, test_mean: 8.27
+FITNESS - train_best: 16.55, train_mean: 27.21, test_best: 5.11, test_mean: 8.82
+FITNESS - train_best: 16.55, train_mean: 26.76, test_best: 5.11, test_mean: 8.66
+FITNESS - train_best: 16.26, train_mean: 23.93, test_best: 4.93, test_mean: 7.63
+FITNESS - train_best: 15.36, train_mean: 21.79, test_best: 4.80, test_mean: 6.91
+FITNESS - train_best: 13.57, train_mean: 22.21, test_best: 4.40, test_mean: 7.08
+FITNESS - train_best: 13.57, train_mean: 22.18, test_best: 4.40, test_mean: 7.09
+FITNESS - train_best: 13.57, train_mean: 25.63, test_best: 4.40, test_mean: 8.41
+FITNESS - train_best: 13.57, train_mean: 19.95, test_best: 4.40, test_mean: 6.35
+FITNESS - train_best: 13.57, train_mean: 19.75, test_best: 4.27, test_mean: 6.23
+FITNESS - train_best: 13.57, train_mean: 20.50, test_best: 4.27, test_mean: 6.55
+FITNESS - train_best: 13.57, train_mean: 19.87, test_best: 4.27, test_mean: 6.23
+FITNESS - train_best: 13.57, train_mean: 22.28, test_best: 4.27, test_mean: 7.14
+FITNESS - train_best: 13.57, train_mean: 22.85, test_best: 4.27, test_mean: 7.44
+FITNESS - train_best: 13.57, train_mean: 19.58, test_best: 4.17, test_mean: 6.31
+FITNESS - train_best: 12.72, train_mean: 20.28, test_best: 4.04, test_mean: 6.48
+FITNESS - train_best: 12.72, train_mean: 20.06, test_best: 4.04, test_mean: 6.40
+FITNESS - train_best: 12.72, train_mean: 19.36, test_best: 4.04, test_mean: 6.26
+FITNESS - train_best: 12.72, train_mean: 22.51, test_best: 4.04, test_mean: 7.51
+FITNESS - train_best: 12.72, train_mean: 23.19, test_best: 4.04, test_mean: 7.72
+FITNESS - train_best: 12.72, train_mean: 19.76, test_best: 3.81, test_mean: 6.39
+FITNESS - train_best: 12.72, train_mean: 19.40, test_best: 3.81, test_mean: 6.26
+FITNESS - train_best: 12.72, train_mean: 21.41, test_best: 3.81, test_mean: 6.89
+FITNESS - train_best: 10.81, train_mean: 16.87, test_best: 3.47, test_mean: 5.45
+FITNESS - train_best: 10.81, train_mean: 18.60, test_best: 3.47, test_mean: 5.94
+FITNESS - train_best: 10.81, train_mean: 18.18, test_best: 3.47, test_mean: 5.84
+FITNESS - train_best: 10.81, train_mean: 17.35, test_best: 3.47, test_mean: 5.56
+FITNESS - train_best: 10.81, train_mean: 17.58, test_best: 3.47, test_mean: 5.62
+FITNESS - train_best: 10.81, train_mean: 15.68, test_best: 3.47, test_mean: 5.01
+FITNESS - train_best: 10.81, train_mean: 16.58, test_best: 3.47, test_mean: 5.30
+FITNESS - train_best: 10.81, train_mean: 21.00, test_best: 3.47, test_mean: 6.94
+FITNESS - train_best: 10.73, train_mean: 15.77, test_best: 3.44, test_mean: 5.07
+FITNESS - train_best: 10.73, train_mean: 17.59, test_best: 3.44, test_mean: 5.75
+FITNESS - train_best: 10.73, train_mean: 14.82, test_best: 3.44, test_mean: 4.73
+FITNESS - train_best: 10.73, train_mean: 17.90, test_best: 3.44, test_mean: 5.82
+FITNESS - train_best: 10.73, train_mean: 16.51, test_best: 3.44, test_mean: 5.32
+FITNESS - train_best: 10.73, train_mean: 15.84, test_best: 3.34, test_mean: 5.16
+FITNESS - train_best: 10.33, train_mean: 19.03, test_best: 3.21, test_mean: 6.21
+FITNESS - train_best: 10.33, train_mean: 16.25, test_best: 3.21, test_mean: 5.26
+FITNESS - train_best: 10.33, train_mean: 13.26, test_best: 3.21, test_mean: 4.20
+FITNESS - train_best: 10.33, train_mean: 14.11, test_best: 3.19, test_mean: 4.50
+FITNESS - train_best: 10.29, train_mean: 13.47, test_best: 3.19, test_mean: 4.28
+FITNESS - train_best: 10.29, train_mean: 15.03, test_best: 3.19, test_mean: 4.79
+FITNESS - train_best: 10.29, train_mean: 18.94, test_best: 3.19, test_mean: 6.27
+FITNESS - train_best: 10.29, train_mean: 20.40, test_best: 3.19, test_mean: 6.74
+FITNESS - train_best: 10.29, train_mean: 14.64, test_best: 3.19, test_mean: 4.63
+FITNESS - train_best: 10.29, train_mean: 16.08, test_best: 3.19, test_mean: 5.22
+FITNESS - train_best: 10.29, train_mean: 13.87, test_best: 3.19, test_mean: 4.38
+FITNESS - train_best: 10.29, train_mean: 14.98, test_best: 3.19, test_mean: 4.81
+FITNESS - train_best: 10.29, train_mean: 16.92, test_best: 3.19, test_mean: 5.42
+FITNESS - train_best: 10.29, train_mean: 18.70, test_best: 3.19, test_mean: 6.15
+FITNESS - train_best: 10.29, train_mean: 12.42, test_best: 3.19, test_mean: 3.95
+FITNESS - train_best: 10.29, train_mean: 15.40, test_best: 3.19, test_mean: 5.02
+FITNESS - train_best: 10.29, train_mean: 14.05, test_best: 3.19, test_mean: 4.47
+FITNESS - train_best: 10.29, train_mean: 15.23, test_best: 3.19, test_mean: 4.91
+FITNESS - train_best: 10.29, train_mean: 17.48, test_best: 3.19, test_mean: 5.73
+FITNESS - train_best: 10.15, train_mean: 15.34, test_best: 3.15, test_mean: 4.87
+FITNESS - train_best: 10.15, train_mean: 13.51, test_best: 3.15, test_mean: 4.28
+record 1	 prediction:    36421	actual:    20296	difference:    79%
+record 2	 prediction:    22594	actual:     6112	difference:   269%
+record 3	 prediction:    37491	actual:    12523	difference:   199%
+record 4	 prediction:    46319	actual:    39556	difference:    17%
+record 5	 prediction:    14818	actual:     1712	difference:   765%
+record 6	 prediction:    15717	actual:     1635	difference:   860%
+record 7	 prediction:    33586	actual:    28923	difference:    16%
+record 8	 prediction:    42143	actual:    38415	difference:     9%
+record 9	 prediction:    17725	actual:     5152	difference:   244%
+record 10	 prediction:    41620	actual:    12982	difference:   220%
+{'generations': 100, 'population_size': 50, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': False}
+FITNESS - train_best: 695.25, train_mean: 3187.28, test_best: 234.32, test_mean: 1096.25
+FITNESS - train_best: 695.25, train_mean: 2318.58, test_best: 234.32, test_mean: 800.35
+FITNESS - train_best: 549.81, train_mean: 1647.31, test_best: 186.86, test_mean: 566.21
+FITNESS - train_best: 223.63, train_mean: 1160.60, test_best: 73.74, test_mean: 395.10
+FITNESS - train_best: 184.67, train_mean: 807.22, test_best: 60.58, test_mean: 275.82
+FITNESS - train_best: 114.79, train_mean: 556.20, test_best: 39.40, test_mean: 189.07
+FITNESS - train_best: 114.79, train_mean: 361.46, test_best: 39.40, test_mean: 122.18
+FITNESS - train_best: 59.37, train_mean: 236.82, test_best: 20.91, test_mean: 79.43
+FITNESS - train_best: 55.09, train_mean: 172.43, test_best: 19.54, test_mean: 58.00
+FITNESS - train_best: 34.20, train_mean: 120.46, test_best: 11.81, test_mean: 40.67
+FITNESS - train_best: 33.32, train_mean: 91.50, test_best: 11.81, test_mean: 31.04
+FITNESS - train_best: 32.84, train_mean: 65.59, test_best: 11.81, test_mean: 22.33
+FITNESS - train_best: 32.84, train_mean: 58.95, test_best: 11.81, test_mean: 21.05
+FITNESS - train_best: 26.35, train_mean: 55.97, test_best: 9.96, test_mean: 20.10
+FITNESS - train_best: 24.16, train_mean: 46.93, test_best: 8.90, test_mean: 17.25
+FITNESS - train_best: 24.16, train_mean: 46.13, test_best: 8.90, test_mean: 17.19
+FITNESS - train_best: 24.16, train_mean: 41.66, test_best: 8.90, test_mean: 15.44
+FITNESS - train_best: 22.72, train_mean: 38.50, test_best: 8.16, test_mean: 14.15
+FITNESS - train_best: 22.72, train_mean: 37.01, test_best: 8.16, test_mean: 13.45
+FITNESS - train_best: 22.72, train_mean: 30.49, test_best: 8.16, test_mean: 11.12
+FITNESS - train_best: 21.09, train_mean: 31.72, test_best: 8.16, test_mean: 11.60
+FITNESS - train_best: 20.97, train_mean: 31.81, test_best: 7.84, test_mean: 11.64
+FITNESS - train_best: 15.06, train_mean: 27.01, test_best: 5.90, test_mean: 9.86
+FITNESS - train_best: 15.06, train_mean: 27.17, test_best: 5.90, test_mean: 9.90
+FITNESS - train_best: 15.06, train_mean: 27.26, test_best: 5.90, test_mean: 10.02
+FITNESS - train_best: 14.00, train_mean: 25.58, test_best: 5.66, test_mean: 9.49
+FITNESS - train_best: 14.00, train_mean: 28.45, test_best: 5.66, test_mean: 10.58
+FITNESS - train_best: 14.00, train_mean: 26.48, test_best: 5.66, test_mean: 9.83
+FITNESS - train_best: 14.00, train_mean: 21.97, test_best: 5.66, test_mean: 8.23
+FITNESS - train_best: 14.00, train_mean: 25.08, test_best: 5.66, test_mean: 9.22
+FITNESS - train_best: 13.67, train_mean: 21.75, test_best: 5.31, test_mean: 8.12
+FITNESS - train_best: 13.67, train_mean: 19.57, test_best: 5.31, test_mean: 7.38
+FITNESS - train_best: 13.67, train_mean: 21.75, test_best: 5.03, test_mean: 8.20
+FITNESS - train_best: 11.87, train_mean: 18.99, test_best: 4.84, test_mean: 7.30
+FITNESS - train_best: 11.87, train_mean: 17.86, test_best: 4.55, test_mean: 6.81
+FITNESS - train_best: 11.87, train_mean: 21.30, test_best: 4.55, test_mean: 8.18
+FITNESS - train_best: 11.58, train_mean: 17.73, test_best: 4.55, test_mean: 6.88
+FITNESS - train_best: 11.58, train_mean: 21.61, test_best: 4.55, test_mean: 8.38
+FITNESS - train_best: 11.58, train_mean: 21.28, test_best: 4.55, test_mean: 8.11
+FITNESS - train_best: 11.58, train_mean: 22.63, test_best: 4.55, test_mean: 8.85
+FITNESS - train_best: 11.58, train_mean: 18.05, test_best: 4.55, test_mean: 6.90
+FITNESS - train_best: 10.53, train_mean: 18.23, test_best: 4.22, test_mean: 7.16
+FITNESS - train_best: 10.53, train_mean: 16.41, test_best: 4.22, test_mean: 6.37
+FITNESS - train_best: 10.53, train_mean: 14.91, test_best: 4.22, test_mean: 5.83
+FITNESS - train_best: 10.53, train_mean: 19.84, test_best: 4.22, test_mean: 7.47
+FITNESS - train_best: 10.53, train_mean: 18.03, test_best: 4.22, test_mean: 6.92
+FITNESS - train_best: 10.53, train_mean: 15.40, test_best: 3.91, test_mean: 6.05
+FITNESS - train_best: 10.53, train_mean: 19.91, test_best: 3.91, test_mean: 7.47
+FITNESS - train_best: 10.53, train_mean: 20.83, test_best: 3.91, test_mean: 8.03
+FITNESS - train_best: 10.53, train_mean: 18.03, test_best: 3.91, test_mean: 6.94
+FITNESS - train_best: 10.53, train_mean: 13.74, test_best: 3.91, test_mean: 5.33
+FITNESS - train_best: 10.53, train_mean: 20.10, test_best: 3.91, test_mean: 7.60
+FITNESS - train_best: 10.53, train_mean: 15.89, test_best: 3.91, test_mean: 6.18
+FITNESS - train_best: 10.53, train_mean: 14.48, test_best: 3.91, test_mean: 5.58
+FITNESS - train_best: 10.53, train_mean: 17.12, test_best: 3.87, test_mean: 6.45
+FITNESS - train_best: 10.53, train_mean: 16.98, test_best: 3.87, test_mean: 6.42
+FITNESS - train_best: 10.53, train_mean: 18.67, test_best: 3.87, test_mean: 6.98
+FITNESS - train_best: 10.53, train_mean: 15.29, test_best: 3.87, test_mean: 5.85
+FITNESS - train_best: 10.53, train_mean: 20.50, test_best: 3.87, test_mean: 7.56
+FITNESS - train_best: 10.53, train_mean: 15.17, test_best: 3.87, test_mean: 5.66
+FITNESS - train_best: 10.53, train_mean: 14.97, test_best: 3.87, test_mean: 5.67
+FITNESS - train_best: 10.53, train_mean: 18.69, test_best: 3.87, test_mean: 7.05
+FITNESS - train_best: 10.53, train_mean: 13.14, test_best: 3.87, test_mean: 4.88
+FITNESS - train_best: 10.53, train_mean: 16.15, test_best: 3.87, test_mean: 6.14
+FITNESS - train_best: 10.53, train_mean: 16.80, test_best: 3.87, test_mean: 6.27
+FITNESS - train_best: 9.35, train_mean: 13.89, test_best: 3.64, test_mean: 5.12
+FITNESS - train_best: 9.35, train_mean: 17.51, test_best: 3.64, test_mean: 6.46
+FITNESS - train_best: 9.35, train_mean: 16.14, test_best: 3.64, test_mean: 5.95
+FITNESS - train_best: 9.34, train_mean: 15.98, test_best: 3.64, test_mean: 5.98
+FITNESS - train_best: 9.34, train_mean: 15.12, test_best: 3.64, test_mean: 5.48
+FITNESS - train_best: 9.34, train_mean: 15.17, test_best: 3.64, test_mean: 5.55
+FITNESS - train_best: 9.34, train_mean: 16.69, test_best: 3.64, test_mean: 6.19
+FITNESS - train_best: 9.34, train_mean: 15.89, test_best: 3.64, test_mean: 5.93
+FITNESS - train_best: 9.34, train_mean: 13.45, test_best: 3.64, test_mean: 5.21
+FITNESS - train_best: 9.34, train_mean: 17.86, test_best: 3.64, test_mean: 6.62
+FITNESS - train_best: 9.34, train_mean: 17.10, test_best: 3.64, test_mean: 6.35
+FITNESS - train_best: 9.34, train_mean: 12.53, test_best: 3.64, test_mean: 4.81
+FITNESS - train_best: 9.34, train_mean: 12.40, test_best: 3.64, test_mean: 4.65
+FITNESS - train_best: 9.34, train_mean: 16.55, test_best: 3.64, test_mean: 6.31
+FITNESS - train_best: 9.34, train_mean: 15.23, test_best: 3.64, test_mean: 5.77
+FITNESS - train_best: 9.34, train_mean: 18.06, test_best: 3.64, test_mean: 6.72
+FITNESS - train_best: 9.34, train_mean: 13.93, test_best: 3.64, test_mean: 5.19
+FITNESS - train_best: 9.34, train_mean: 16.53, test_best: 3.64, test_mean: 6.10
+FITNESS - train_best: 9.34, train_mean: 14.27, test_best: 3.64, test_mean: 5.42
+FITNESS - train_best: 9.34, train_mean: 15.29, test_best: 3.64, test_mean: 5.79
+FITNESS - train_best: 9.29, train_mean: 10.52, test_best: 3.64, test_mean: 4.05
+FITNESS - train_best: 9.29, train_mean: 13.25, test_best: 3.64, test_mean: 5.04
+FITNESS - train_best: 9.29, train_mean: 13.37, test_best: 3.64, test_mean: 5.07
+FITNESS - train_best: 9.29, train_mean: 11.78, test_best: 3.63, test_mean: 4.54
+FITNESS - train_best: 9.29, train_mean: 13.82, test_best: 3.63, test_mean: 5.26
+FITNESS - train_best: 9.29, train_mean: 15.19, test_best: 3.63, test_mean: 5.58
+FITNESS - train_best: 9.26, train_mean: 11.43, test_best: 3.62, test_mean: 4.42
+FITNESS - train_best: 9.26, train_mean: 13.45, test_best: 3.63, test_mean: 5.09
+FITNESS - train_best: 9.26, train_mean: 13.96, test_best: 3.63, test_mean: 5.24
+FITNESS - train_best: 9.13, train_mean: 15.34, test_best: 3.60, test_mean: 5.92
+FITNESS - train_best: 9.13, train_mean: 19.41, test_best: 3.60, test_mean: 7.21
+FITNESS - train_best: 9.13, train_mean: 16.85, test_best: 3.60, test_mean: 6.33
+FITNESS - train_best: 9.13, train_mean: 10.61, test_best: 3.60, test_mean: 4.10
+FITNESS - train_best: 9.13, train_mean: 16.32, test_best: 3.60, test_mean: 6.25
+FITNESS - train_best: 9.13, train_mean: 14.00, test_best: 3.60, test_mean: 5.32
+record 1	 prediction:      643	actual:     9724	difference:   -93%
+record 2	 prediction:     5329	actual:     2007	difference:   165%
+record 3	 prediction:     6404	actual:     7337	difference:   -12%
+record 4	 prediction:   -17153	actual:     7173	difference:  -339%
+record 5	 prediction:    -5617	actual:     6940	difference:  -180%
+record 6	 prediction:     3144	actual:     7077	difference:   -55%
+record 7	 prediction:    -2199	actual:     7441	difference:  -129%
+record 8	 prediction:    40471	actual:    48517	difference:   -16%
+record 9	 prediction:    14800	actual:    17179	difference:   -13%
+record 10	 prediction:   -19048	actual:    18157	difference:  -204%
+{'generations': 100, 'population_size': 100, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 1231.86, train_mean: 4379.61, test_best: 431.94, test_mean: 1467.20
+FITNESS - train_best: 720.85, train_mean: 3309.25, test_best: 266.70, test_mean: 1113.99
+FITNESS - train_best: 720.85, train_mean: 2509.21, test_best: 266.70, test_mean: 850.19
+FITNESS - train_best: 720.85, train_mean: 2009.46, test_best: 266.70, test_mean: 685.28
+FITNESS - train_best: 645.47, train_mean: 1677.53, test_best: 236.01, test_mean: 573.11
+FITNESS - train_best: 542.89, train_mean: 1415.63, test_best: 206.18, test_mean: 484.65
+FITNESS - train_best: 310.66, train_mean: 1137.18, test_best: 107.96, test_mean: 392.33
+FITNESS - train_best: 310.66, train_mean: 897.14, test_best: 107.96, test_mean: 313.75
+FITNESS - train_best: 310.66, train_mean: 728.29, test_best: 107.96, test_mean: 258.03
+FITNESS - train_best: 261.24, train_mean: 624.45, test_best: 94.26, test_mean: 223.18
+FITNESS - train_best: 194.55, train_mean: 543.85, test_best: 71.47, test_mean: 194.71
+FITNESS - train_best: 92.94, train_mean: 445.72, test_best: 29.37, test_mean: 158.96
+FITNESS - train_best: 70.38, train_mean: 356.57, test_best: 27.26, test_mean: 127.43
+FITNESS - train_best: 70.38, train_mean: 275.37, test_best: 27.26, test_mean: 97.96
+FITNESS - train_best: 56.94, train_mean: 216.57, test_best: 19.37, test_mean: 76.53
+FITNESS - train_best: 56.94, train_mean: 163.14, test_best: 19.37, test_mean: 57.96
+FITNESS - train_best: 34.44, train_mean: 132.90, test_best: 12.16, test_mean: 47.04
+FITNESS - train_best: 34.44, train_mean: 104.73, test_best: 12.16, test_mean: 37.28
+FITNESS - train_best: 30.61, train_mean: 85.50, test_best: 10.32, test_mean: 30.45
+FITNESS - train_best: 30.61, train_mean: 74.38, test_best: 10.32, test_mean: 26.51
+FITNESS - train_best: 29.37, train_mean: 67.50, test_best: 10.32, test_mean: 23.77
+FITNESS - train_best: 29.37, train_mean: 63.58, test_best: 10.32, test_mean: 22.43
+FITNESS - train_best: 29.37, train_mean: 58.87, test_best: 10.32, test_mean: 20.85
+FITNESS - train_best: 29.37, train_mean: 53.89, test_best: 10.28, test_mean: 18.72
+FITNESS - train_best: 23.45, train_mean: 51.49, test_best: 7.98, test_mean: 18.19
+FITNESS - train_best: 23.45, train_mean: 46.06, test_best: 7.98, test_mean: 16.18
+FITNESS - train_best: 22.47, train_mean: 40.25, test_best: 7.81, test_mean: 14.08
+FITNESS - train_best: 22.47, train_mean: 43.24, test_best: 7.81, test_mean: 14.87
+FITNESS - train_best: 20.12, train_mean: 41.62, test_best: 7.81, test_mean: 14.33
+FITNESS - train_best: 18.10, train_mean: 38.49, test_best: 6.72, test_mean: 13.25
+FITNESS - train_best: 18.10, train_mean: 38.18, test_best: 6.72, test_mean: 13.16
+FITNESS - train_best: 18.10, train_mean: 33.71, test_best: 6.72, test_mean: 11.53
+FITNESS - train_best: 18.10, train_mean: 35.69, test_best: 6.72, test_mean: 12.37
+FITNESS - train_best: 18.10, train_mean: 32.41, test_best: 6.72, test_mean: 11.21
+FITNESS - train_best: 18.10, train_mean: 32.85, test_best: 6.72, test_mean: 11.22
+FITNESS - train_best: 18.10, train_mean: 30.79, test_best: 6.72, test_mean: 10.63
+FITNESS - train_best: 16.55, train_mean: 31.26, test_best: 6.41, test_mean: 10.80
+FITNESS - train_best: 16.55, train_mean: 30.28, test_best: 6.41, test_mean: 10.49
+FITNESS - train_best: 16.55, train_mean: 25.64, test_best: 6.37, test_mean: 8.98
+FITNESS - train_best: 16.55, train_mean: 27.77, test_best: 6.08, test_mean: 9.81
+FITNESS - train_best: 16.50, train_mean: 24.93, test_best: 6.07, test_mean: 8.91
+FITNESS - train_best: 16.50, train_mean: 26.82, test_best: 5.83, test_mean: 9.53
+FITNESS - train_best: 16.50, train_mean: 26.45, test_best: 5.83, test_mean: 9.39
+FITNESS - train_best: 16.50, train_mean: 24.68, test_best: 5.83, test_mean: 8.85
+FITNESS - train_best: 16.50, train_mean: 25.37, test_best: 5.83, test_mean: 9.03
+FITNESS - train_best: 13.80, train_mean: 25.11, test_best: 4.90, test_mean: 9.00
+FITNESS - train_best: 13.80, train_mean: 27.24, test_best: 4.90, test_mean: 9.58
+FITNESS - train_best: 13.80, train_mean: 22.96, test_best: 4.90, test_mean: 8.40
+FITNESS - train_best: 13.68, train_mean: 22.97, test_best: 4.90, test_mean: 8.26
+FITNESS - train_best: 13.68, train_mean: 22.42, test_best: 4.90, test_mean: 8.18
+FITNESS - train_best: 13.68, train_mean: 20.58, test_best: 4.90, test_mean: 7.51
+FITNESS - train_best: 13.62, train_mean: 24.73, test_best: 4.90, test_mean: 8.93
+FITNESS - train_best: 13.62, train_mean: 22.33, test_best: 4.90, test_mean: 8.13
+FITNESS - train_best: 12.22, train_mean: 18.32, test_best: 4.61, test_mean: 6.74
+FITNESS - train_best: 12.22, train_mean: 20.79, test_best: 4.61, test_mean: 7.52
+FITNESS - train_best: 12.22, train_mean: 18.39, test_best: 4.61, test_mean: 6.81
+FITNESS - train_best: 12.22, train_mean: 19.38, test_best: 4.61, test_mean: 7.06
+FITNESS - train_best: 12.22, train_mean: 20.14, test_best: 4.61, test_mean: 7.31
+FITNESS - train_best: 12.22, train_mean: 19.68, test_best: 4.61, test_mean: 7.20
+FITNESS - train_best: 12.22, train_mean: 18.50, test_best: 4.61, test_mean: 6.68
+FITNESS - train_best: 12.22, train_mean: 17.67, test_best: 4.59, test_mean: 6.51
+FITNESS - train_best: 12.22, train_mean: 17.68, test_best: 4.44, test_mean: 6.42
+FITNESS - train_best: 12.22, train_mean: 17.77, test_best: 4.44, test_mean: 6.55
+FITNESS - train_best: 12.22, train_mean: 16.55, test_best: 4.44, test_mean: 6.06
+FITNESS - train_best: 12.22, train_mean: 15.78, test_best: 4.44, test_mean: 5.80
+FITNESS - train_best: 11.98, train_mean: 18.67, test_best: 4.39, test_mean: 6.67
+FITNESS - train_best: 11.96, train_mean: 16.66, test_best: 4.39, test_mean: 6.10
+FITNESS - train_best: 11.96, train_mean: 17.31, test_best: 4.37, test_mean: 6.29
+FITNESS - train_best: 11.96, train_mean: 16.85, test_best: 4.37, test_mean: 6.06
+FITNESS - train_best: 11.96, train_mean: 19.10, test_best: 4.37, test_mean: 6.83
+FITNESS - train_best: 11.96, train_mean: 19.33, test_best: 4.37, test_mean: 6.93
+FITNESS - train_best: 11.72, train_mean: 19.29, test_best: 4.37, test_mean: 6.90
+FITNESS - train_best: 11.72, train_mean: 18.93, test_best: 4.37, test_mean: 6.83
+FITNESS - train_best: 11.44, train_mean: 16.82, test_best: 4.37, test_mean: 6.09
+FITNESS - train_best: 11.26, train_mean: 18.73, test_best: 4.21, test_mean: 6.78
+FITNESS - train_best: 11.26, train_mean: 17.73, test_best: 4.21, test_mean: 6.39
+FITNESS - train_best: 11.26, train_mean: 17.52, test_best: 4.19, test_mean: 6.36
+FITNESS - train_best: 11.02, train_mean: 18.42, test_best: 4.09, test_mean: 6.60
+FITNESS - train_best: 11.02, train_mean: 17.67, test_best: 4.09, test_mean: 6.45
+FITNESS - train_best: 11.02, train_mean: 14.82, test_best: 4.09, test_mean: 5.41
+FITNESS - train_best: 11.02, train_mean: 17.08, test_best: 4.09, test_mean: 6.25
+FITNESS - train_best: 11.02, train_mean: 15.40, test_best: 4.09, test_mean: 5.67
+FITNESS - train_best: 11.02, train_mean: 19.28, test_best: 4.09, test_mean: 6.94
+FITNESS - train_best: 11.02, train_mean: 17.31, test_best: 3.95, test_mean: 6.26
+FITNESS - train_best: 11.02, train_mean: 16.30, test_best: 3.95, test_mean: 5.90
+FITNESS - train_best: 11.02, train_mean: 19.39, test_best: 3.95, test_mean: 6.90
+FITNESS - train_best: 10.81, train_mean: 16.20, test_best: 3.95, test_mean: 5.85
+FITNESS - train_best: 10.35, train_mean: 16.36, test_best: 3.87, test_mean: 5.88
+FITNESS - train_best: 10.35, train_mean: 17.44, test_best: 3.87, test_mean: 6.25
+FITNESS - train_best: 10.35, train_mean: 15.30, test_best: 3.87, test_mean: 5.56
+FITNESS - train_best: 10.35, train_mean: 18.72, test_best: 3.87, test_mean: 6.79
+FITNESS - train_best: 10.35, train_mean: 17.37, test_best: 3.87, test_mean: 6.27
+FITNESS - train_best: 10.35, train_mean: 17.10, test_best: 3.87, test_mean: 6.25
+FITNESS - train_best: 10.35, train_mean: 15.71, test_best: 3.87, test_mean: 5.67
+FITNESS - train_best: 10.35, train_mean: 16.17, test_best: 3.87, test_mean: 5.85
+FITNESS - train_best: 9.75, train_mean: 15.25, test_best: 3.78, test_mean: 5.54
+FITNESS - train_best: 9.75, train_mean: 16.46, test_best: 3.78, test_mean: 5.96
+FITNESS - train_best: 9.75, train_mean: 16.52, test_best: 3.78, test_mean: 5.92
+FITNESS - train_best: 9.75, train_mean: 15.78, test_best: 3.78, test_mean: 5.80
+FITNESS - train_best: 9.75, train_mean: 14.76, test_best: 3.78, test_mean: 5.41
+record 1	 prediction:    30783	actual:    17468	difference:    76%
+record 2	 prediction:    23879	actual:     2913	difference:   719%
+record 3	 prediction:    25580	actual:    26018	difference:    -1%
+record 4	 prediction:    57725	actual:     6653	difference:   767%
+record 5	 prediction:    44209	actual:    46889	difference:    -5%
+record 6	 prediction:    19435	actual:     5116	difference:   279%
+record 7	 prediction:    31822	actual:     7256	difference:   338%
+record 8	 prediction:    26701	actual:     4529	difference:   489%
+record 9	 prediction:    38730	actual:    40974	difference:    -5%
+record 10	 prediction:    13842	actual:    11272	difference:    22%
+{'generations': 100, 'population_size': 100, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': False}
+FITNESS - train_best: 1061.75, train_mean: 4202.27, test_best: 363.39, test_mean: 1403.73
+FITNESS - train_best: 980.70, train_mean: 3147.53, test_best: 333.75, test_mean: 1049.15
+FITNESS - train_best: 912.73, train_mean: 2464.54, test_best: 310.60, test_mean: 813.85
+FITNESS - train_best: 912.73, train_mean: 2027.69, test_best: 310.60, test_mean: 671.65
+FITNESS - train_best: 476.46, train_mean: 1625.06, test_best: 160.91, test_mean: 539.10
+FITNESS - train_best: 350.47, train_mean: 1239.56, test_best: 117.59, test_mean: 411.95
+FITNESS - train_best: 257.75, train_mean: 968.03, test_best: 87.90, test_mean: 327.96
+FITNESS - train_best: 192.90, train_mean: 766.40, test_best: 70.20, test_mean: 261.60
+FITNESS - train_best: 192.90, train_mean: 539.04, test_best: 70.20, test_mean: 185.18
+FITNESS - train_best: 176.42, train_mean: 412.34, test_best: 64.29, test_mean: 144.43
+FITNESS - train_best: 176.42, train_mean: 336.31, test_best: 64.29, test_mean: 118.84
+FITNESS - train_best: 176.42, train_mean: 306.93, test_best: 63.95, test_mean: 108.20
+FITNESS - train_best: 132.34, train_mean: 273.83, test_best: 46.57, test_mean: 96.41
+FITNESS - train_best: 88.91, train_mean: 234.60, test_best: 31.72, test_mean: 82.89
+FITNESS - train_best: 88.91, train_mean: 201.44, test_best: 30.78, test_mean: 71.04
+FITNESS - train_best: 77.11, train_mean: 170.13, test_best: 26.79, test_mean: 60.03
+FITNESS - train_best: 77.11, train_mean: 151.21, test_best: 26.79, test_mean: 52.87
+FITNESS - train_best: 53.23, train_mean: 133.93, test_best: 18.60, test_mean: 47.13
+FITNESS - train_best: 46.72, train_mean: 115.33, test_best: 16.44, test_mean: 40.42
+FITNESS - train_best: 46.72, train_mean: 104.74, test_best: 16.44, test_mean: 36.75
+FITNESS - train_best: 37.48, train_mean: 93.87, test_best: 12.95, test_mean: 32.92
+FITNESS - train_best: 37.48, train_mean: 90.84, test_best: 12.95, test_mean: 31.74
+FITNESS - train_best: 22.32, train_mean: 76.45, test_best: 8.04, test_mean: 26.63
+FITNESS - train_best: 22.32, train_mean: 70.77, test_best: 8.04, test_mean: 24.52
+FITNESS - train_best: 22.32, train_mean: 63.77, test_best: 8.04, test_mean: 22.09
+FITNESS - train_best: 22.32, train_mean: 56.57, test_best: 8.04, test_mean: 19.80
+FITNESS - train_best: 22.32, train_mean: 51.33, test_best: 8.04, test_mean: 17.83
+FITNESS - train_best: 20.56, train_mean: 42.01, test_best: 7.04, test_mean: 14.56
+FITNESS - train_best: 15.84, train_mean: 37.49, test_best: 5.52, test_mean: 12.84
+FITNESS - train_best: 15.84, train_mean: 31.98, test_best: 5.52, test_mean: 11.00
+FITNESS - train_best: 15.84, train_mean: 31.85, test_best: 5.52, test_mean: 11.04
+FITNESS - train_best: 15.84, train_mean: 32.98, test_best: 5.52, test_mean: 11.37
+FITNESS - train_best: 15.84, train_mean: 28.40, test_best: 5.52, test_mean: 9.73
+FITNESS - train_best: 14.97, train_mean: 30.27, test_best: 5.08, test_mean: 10.47
+FITNESS - train_best: 14.97, train_mean: 27.23, test_best: 5.08, test_mean: 9.35
+FITNESS - train_best: 14.91, train_mean: 25.77, test_best: 5.08, test_mean: 8.91
+FITNESS - train_best: 14.91, train_mean: 23.52, test_best: 5.08, test_mean: 8.15
+FITNESS - train_best: 14.91, train_mean: 23.82, test_best: 5.08, test_mean: 8.26
+FITNESS - train_best: 13.22, train_mean: 21.32, test_best: 4.53, test_mean: 7.41
+FITNESS - train_best: 13.22, train_mean: 21.22, test_best: 4.53, test_mean: 7.32
+FITNESS - train_best: 13.22, train_mean: 20.91, test_best: 4.53, test_mean: 7.28
+FITNESS - train_best: 13.22, train_mean: 20.38, test_best: 4.17, test_mean: 7.10
+FITNESS - train_best: 13.05, train_mean: 23.26, test_best: 4.17, test_mean: 8.00
+FITNESS - train_best: 13.05, train_mean: 19.48, test_best: 4.17, test_mean: 6.76
+FITNESS - train_best: 12.85, train_mean: 19.35, test_best: 4.17, test_mean: 6.66
+FITNESS - train_best: 11.77, train_mean: 18.94, test_best: 4.11, test_mean: 6.51
+FITNESS - train_best: 11.77, train_mean: 20.12, test_best: 4.11, test_mean: 6.89
+FITNESS - train_best: 11.77, train_mean: 19.85, test_best: 4.11, test_mean: 6.78
+FITNESS - train_best: 11.72, train_mean: 17.86, test_best: 3.92, test_mean: 6.08
+FITNESS - train_best: 11.59, train_mean: 18.54, test_best: 3.92, test_mean: 6.30
+FITNESS - train_best: 11.59, train_mean: 20.53, test_best: 3.92, test_mean: 6.98
+FITNESS - train_best: 11.15, train_mean: 20.91, test_best: 3.75, test_mean: 7.06
+FITNESS - train_best: 11.15, train_mean: 17.60, test_best: 3.75, test_mean: 5.92
+FITNESS - train_best: 11.15, train_mean: 19.54, test_best: 3.75, test_mean: 6.58
+FITNESS - train_best: 11.15, train_mean: 17.41, test_best: 3.75, test_mean: 5.85
+FITNESS - train_best: 11.15, train_mean: 18.41, test_best: 3.75, test_mean: 6.20
+FITNESS - train_best: 11.15, train_mean: 19.35, test_best: 3.75, test_mean: 6.58
+FITNESS - train_best: 11.15, train_mean: 15.49, test_best: 3.50, test_mean: 5.24
+FITNESS - train_best: 11.08, train_mean: 18.89, test_best: 3.50, test_mean: 6.36
+FITNESS - train_best: 11.08, train_mean: 17.06, test_best: 3.50, test_mean: 5.82
+FITNESS - train_best: 11.08, train_mean: 15.59, test_best: 3.50, test_mean: 5.33
+FITNESS - train_best: 11.08, train_mean: 17.12, test_best: 3.50, test_mean: 5.75
+FITNESS - train_best: 11.08, train_mean: 16.55, test_best: 3.50, test_mean: 5.55
+FITNESS - train_best: 11.08, train_mean: 16.95, test_best: 3.50, test_mean: 5.71
+FITNESS - train_best: 11.08, train_mean: 17.44, test_best: 3.50, test_mean: 5.87
+FITNESS - train_best: 11.08, train_mean: 15.96, test_best: 3.50, test_mean: 5.37
+FITNESS - train_best: 10.85, train_mean: 16.03, test_best: 3.48, test_mean: 5.34
+FITNESS - train_best: 10.62, train_mean: 17.29, test_best: 3.48, test_mean: 5.74
+FITNESS - train_best: 10.62, train_mean: 13.59, test_best: 3.48, test_mean: 4.50
+FITNESS - train_best: 10.62, train_mean: 14.41, test_best: 3.48, test_mean: 4.75
+FITNESS - train_best: 10.51, train_mean: 14.67, test_best: 3.37, test_mean: 4.89
+FITNESS - train_best: 10.51, train_mean: 17.65, test_best: 3.37, test_mean: 5.86
+FITNESS - train_best: 10.51, train_mean: 16.29, test_best: 3.37, test_mean: 5.50
+FITNESS - train_best: 10.51, train_mean: 17.54, test_best: 3.37, test_mean: 5.89
+FITNESS - train_best: 10.51, train_mean: 16.72, test_best: 3.37, test_mean: 5.54
+FITNESS - train_best: 10.51, train_mean: 16.83, test_best: 3.35, test_mean: 5.66
+FITNESS - train_best: 10.51, train_mean: 19.08, test_best: 3.30, test_mean: 6.39
+FITNESS - train_best: 10.51, train_mean: 17.09, test_best: 3.30, test_mean: 5.74
+FITNESS - train_best: 10.48, train_mean: 15.50, test_best: 3.30, test_mean: 5.19
+FITNESS - train_best: 10.48, train_mean: 15.16, test_best: 3.30, test_mean: 5.09
+FITNESS - train_best: 10.48, train_mean: 18.23, test_best: 3.30, test_mean: 6.10
+FITNESS - train_best: 10.48, train_mean: 15.93, test_best: 3.30, test_mean: 5.33
+FITNESS - train_best: 10.38, train_mean: 14.39, test_best: 3.30, test_mean: 4.80
+FITNESS - train_best: 10.38, train_mean: 13.68, test_best: 3.30, test_mean: 4.58
+FITNESS - train_best: 10.38, train_mean: 14.91, test_best: 3.30, test_mean: 4.99
+FITNESS - train_best: 10.38, train_mean: 15.63, test_best: 3.30, test_mean: 5.25
+FITNESS - train_best: 10.38, train_mean: 14.89, test_best: 3.29, test_mean: 4.95
+FITNESS - train_best: 10.38, train_mean: 14.83, test_best: 3.29, test_mean: 4.92
+FITNESS - train_best: 10.23, train_mean: 22.41, test_best: 3.25, test_mean: 7.49
+FITNESS - train_best: 10.23, train_mean: 15.65, test_best: 3.25, test_mean: 5.19
+FITNESS - train_best: 10.23, train_mean: 15.00, test_best: 3.25, test_mean: 4.97
+FITNESS - train_best: 10.23, train_mean: 16.24, test_best: 3.25, test_mean: 5.36
+FITNESS - train_best: 10.23, train_mean: 14.67, test_best: 3.25, test_mean: 4.85
+FITNESS - train_best: 10.23, train_mean: 17.91, test_best: 3.25, test_mean: 5.94
+FITNESS - train_best: 10.23, train_mean: 16.88, test_best: 3.25, test_mean: 5.60
+FITNESS - train_best: 10.23, train_mean: 20.70, test_best: 3.25, test_mean: 6.91
+FITNESS - train_best: 10.23, train_mean: 15.08, test_best: 3.24, test_mean: 4.99
+FITNESS - train_best: 10.14, train_mean: 13.13, test_best: 3.24, test_mean: 4.31
+FITNESS - train_best: 10.14, train_mean: 14.65, test_best: 3.24, test_mean: 4.84
+FITNESS - train_best: 10.14, train_mean: 17.06, test_best: 3.24, test_mean: 5.68
+record 1	 prediction:    17404	actual:    23244	difference:   -25%
+record 2	 prediction:    -5459	actual:     3577	difference:  -252%
+record 3	 prediction:     1504	actual:     1242	difference:    21%
+record 4	 prediction:    26322	actual:    17496	difference:    50%
+record 5	 prediction:     1745	actual:    21595	difference:   -91%
+record 6	 prediction:    18980	actual:    23401	difference:   -18%
+record 7	 prediction:     5674	actual:    27117	difference:   -79%
+record 8	 prediction:   -23864	actual:    12475	difference:  -291%
+record 9	 prediction:    -6098	actual:     3875	difference:  -257%
+record 10	 prediction:   -16508	actual:    20177	difference:  -181%
+{'generations': 100, 'population_size': 300, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': True}
+FITNESS - train_best: 695.83, train_mean: 4389.47, test_best: 237.65, test_mean: 1497.20
+FITNESS - train_best: 695.83, train_mean: 3388.90, test_best: 237.65, test_mean: 1150.51
+FITNESS - train_best: 317.71, train_mean: 2691.81, test_best: 106.85, test_mean: 914.98
+FITNESS - train_best: 226.09, train_mean: 2150.93, test_best: 81.19, test_mean: 730.68
+FITNESS - train_best: 217.59, train_mean: 1723.83, test_best: 78.61, test_mean: 586.70
+FITNESS - train_best: 208.88, train_mean: 1363.24, test_best: 75.36, test_mean: 465.69
+FITNESS - train_best: 75.43, train_mean: 1041.56, test_best: 27.86, test_mean: 354.68
+FITNESS - train_best: 75.43, train_mean: 795.60, test_best: 27.86, test_mean: 273.43
+FITNESS - train_best: 75.43, train_mean: 591.03, test_best: 27.86, test_mean: 204.17
+FITNESS - train_best: 75.43, train_mean: 431.81, test_best: 27.86, test_mean: 149.02
+FITNESS - train_best: 32.97, train_mean: 304.05, test_best: 8.42, test_mean: 105.44
+FITNESS - train_best: 32.97, train_mean: 221.42, test_best: 8.42, test_mean: 77.03
+FITNESS - train_best: 32.97, train_mean: 176.23, test_best: 8.42, test_mean: 61.42
+FITNESS - train_best: 32.97, train_mean: 142.01, test_best: 8.42, test_mean: 49.60
+FITNESS - train_best: 32.97, train_mean: 113.88, test_best: 8.42, test_mean: 39.43
+FITNESS - train_best: 29.28, train_mean: 94.82, test_best: 8.04, test_mean: 32.90
+FITNESS - train_best: 29.28, train_mean: 83.48, test_best: 8.04, test_mean: 28.79
+FITNESS - train_best: 23.56, train_mean: 71.91, test_best: 7.22, test_mean: 24.81
+FITNESS - train_best: 23.56, train_mean: 61.43, test_best: 7.22, test_mean: 20.92
+FITNESS - train_best: 20.45, train_mean: 56.35, test_best: 7.19, test_mean: 19.03
+FITNESS - train_best: 19.03, train_mean: 50.77, test_best: 5.66, test_mean: 17.04
+FITNESS - train_best: 19.03, train_mean: 45.40, test_best: 5.66, test_mean: 15.19
+FITNESS - train_best: 19.03, train_mean: 41.82, test_best: 5.66, test_mean: 13.91
+FITNESS - train_best: 14.34, train_mean: 39.79, test_best: 5.14, test_mean: 13.26
+FITNESS - train_best: 14.34, train_mean: 38.41, test_best: 5.06, test_mean: 12.70
+FITNESS - train_best: 14.34, train_mean: 35.73, test_best: 5.06, test_mean: 11.73
+FITNESS - train_best: 14.34, train_mean: 34.48, test_best: 5.06, test_mean: 11.32
+FITNESS - train_best: 13.28, train_mean: 32.72, test_best: 4.52, test_mean: 10.78
+FITNESS - train_best: 13.26, train_mean: 30.82, test_best: 4.52, test_mean: 10.29
+FITNESS - train_best: 13.19, train_mean: 29.69, test_best: 4.40, test_mean: 9.90
+FITNESS - train_best: 12.58, train_mean: 27.46, test_best: 3.92, test_mean: 9.22
+FITNESS - train_best: 11.27, train_mean: 27.07, test_best: 3.92, test_mean: 9.23
+FITNESS - train_best: 11.27, train_mean: 26.56, test_best: 3.92, test_mean: 9.05
+FITNESS - train_best: 11.27, train_mean: 24.14, test_best: 3.92, test_mean: 8.23
+FITNESS - train_best: 11.27, train_mean: 23.69, test_best: 3.92, test_mean: 8.11
+FITNESS - train_best: 11.27, train_mean: 23.29, test_best: 3.92, test_mean: 7.99
+FITNESS - train_best: 11.27, train_mean: 23.48, test_best: 3.92, test_mean: 8.15
+FITNESS - train_best: 10.41, train_mean: 21.91, test_best: 3.67, test_mean: 7.60
+FITNESS - train_best: 10.41, train_mean: 20.14, test_best: 3.67, test_mean: 7.01
+FITNESS - train_best: 10.41, train_mean: 20.60, test_best: 3.67, test_mean: 7.21
+FITNESS - train_best: 10.41, train_mean: 20.90, test_best: 3.67, test_mean: 7.36
+FITNESS - train_best: 10.41, train_mean: 19.83, test_best: 3.67, test_mean: 7.00
+FITNESS - train_best: 10.41, train_mean: 21.57, test_best: 3.67, test_mean: 7.61
+FITNESS - train_best: 10.28, train_mean: 19.58, test_best: 3.67, test_mean: 6.88
+FITNESS - train_best: 10.28, train_mean: 18.54, test_best: 3.67, test_mean: 6.54
+FITNESS - train_best: 10.28, train_mean: 19.17, test_best: 3.67, test_mean: 6.82
+FITNESS - train_best: 10.28, train_mean: 18.47, test_best: 3.67, test_mean: 6.54
+FITNESS - train_best: 10.28, train_mean: 19.08, test_best: 3.63, test_mean: 6.71
+FITNESS - train_best: 10.28, train_mean: 18.69, test_best: 3.63, test_mean: 6.64
+FITNESS - train_best: 9.94, train_mean: 16.73, test_best: 3.63, test_mean: 5.91
+FITNESS - train_best: 9.94, train_mean: 17.30, test_best: 3.58, test_mean: 6.09
+FITNESS - train_best: 9.94, train_mean: 17.10, test_best: 3.58, test_mean: 5.97
+FITNESS - train_best: 9.94, train_mean: 17.11, test_best: 3.58, test_mean: 6.03
+FITNESS - train_best: 9.94, train_mean: 18.24, test_best: 3.58, test_mean: 6.49
+FITNESS - train_best: 9.94, train_mean: 18.45, test_best: 3.58, test_mean: 6.61
+FITNESS - train_best: 9.79, train_mean: 16.34, test_best: 3.53, test_mean: 5.78
+FITNESS - train_best: 9.79, train_mean: 16.21, test_best: 3.53, test_mean: 5.77
+FITNESS - train_best: 9.79, train_mean: 17.08, test_best: 3.53, test_mean: 6.11
+FITNESS - train_best: 9.79, train_mean: 16.27, test_best: 3.51, test_mean: 5.77
+FITNESS - train_best: 9.79, train_mean: 16.42, test_best: 3.40, test_mean: 5.80
+FITNESS - train_best: 9.71, train_mean: 15.36, test_best: 3.36, test_mean: 5.43
+FITNESS - train_best: 9.71, train_mean: 16.48, test_best: 3.36, test_mean: 5.81
+FITNESS - train_best: 9.71, train_mean: 16.78, test_best: 3.36, test_mean: 5.99
+FITNESS - train_best: 9.71, train_mean: 15.83, test_best: 3.36, test_mean: 5.64
+FITNESS - train_best: 9.71, train_mean: 16.73, test_best: 3.36, test_mean: 5.91
+FITNESS - train_best: 9.71, train_mean: 16.80, test_best: 3.36, test_mean: 5.97
+FITNESS - train_best: 9.71, train_mean: 16.13, test_best: 3.36, test_mean: 5.72
+FITNESS - train_best: 9.71, train_mean: 15.43, test_best: 3.36, test_mean: 5.55
+FITNESS - train_best: 9.54, train_mean: 15.93, test_best: 3.36, test_mean: 5.70
+FITNESS - train_best: 9.48, train_mean: 16.37, test_best: 3.36, test_mean: 5.81
+FITNESS - train_best: 9.48, train_mean: 16.73, test_best: 3.36, test_mean: 5.96
+FITNESS - train_best: 9.48, train_mean: 14.53, test_best: 3.36, test_mean: 5.23
+FITNESS - train_best: 9.48, train_mean: 14.99, test_best: 3.36, test_mean: 5.35
+FITNESS - train_best: 9.48, train_mean: 15.71, test_best: 3.36, test_mean: 5.67
+FITNESS - train_best: 9.48, train_mean: 16.64, test_best: 3.36, test_mean: 5.96
+FITNESS - train_best: 9.48, train_mean: 15.75, test_best: 3.36, test_mean: 5.72
+FITNESS - train_best: 9.48, train_mean: 15.87, test_best: 3.36, test_mean: 5.71
+FITNESS - train_best: 9.48, train_mean: 15.67, test_best: 3.36, test_mean: 5.69
+FITNESS - train_best: 9.48, train_mean: 17.04, test_best: 3.36, test_mean: 6.11
+FITNESS - train_best: 9.48, train_mean: 14.57, test_best: 3.36, test_mean: 5.28
+FITNESS - train_best: 9.48, train_mean: 15.72, test_best: 3.36, test_mean: 5.72
+FITNESS - train_best: 9.48, train_mean: 14.06, test_best: 3.36, test_mean: 5.14
+FITNESS - train_best: 9.39, train_mean: 14.75, test_best: 3.36, test_mean: 5.40
+FITNESS - train_best: 9.39, train_mean: 16.02, test_best: 3.36, test_mean: 5.86
+FITNESS - train_best: 9.39, train_mean: 14.68, test_best: 3.36, test_mean: 5.38
+FITNESS - train_best: 9.39, train_mean: 15.34, test_best: 3.35, test_mean: 5.62
+FITNESS - train_best: 9.39, train_mean: 13.79, test_best: 3.36, test_mean: 5.03
+FITNESS - train_best: 9.39, train_mean: 14.46, test_best: 3.36, test_mean: 5.26
+FITNESS - train_best: 9.12, train_mean: 15.43, test_best: 3.36, test_mean: 5.56
+FITNESS - train_best: 9.12, train_mean: 13.97, test_best: 3.36, test_mean: 5.08
+FITNESS - train_best: 9.12, train_mean: 15.55, test_best: 3.36, test_mean: 5.62
+FITNESS - train_best: 9.12, train_mean: 14.61, test_best: 3.36, test_mean: 5.33
+FITNESS - train_best: 9.12, train_mean: 14.00, test_best: 3.36, test_mean: 5.04
+FITNESS - train_best: 9.12, train_mean: 15.22, test_best: 3.36, test_mean: 5.56
+FITNESS - train_best: 9.12, train_mean: 14.07, test_best: 3.36, test_mean: 5.11
+FITNESS - train_best: 9.12, train_mean: 13.99, test_best: 3.29, test_mean: 5.14
+FITNESS - train_best: 9.12, train_mean: 13.41, test_best: 3.36, test_mean: 4.93
+FITNESS - train_best: 9.12, train_mean: 14.26, test_best: 3.36, test_mean: 5.22
+FITNESS - train_best: 9.12, train_mean: 15.37, test_best: 3.36, test_mean: 5.55
+FITNESS - train_best: 9.12, train_mean: 14.31, test_best: 3.36, test_mean: 5.23
+record 1	 prediction:    17497	actual:    19521	difference:   -10%
+record 2	 prediction:    15250	actual:    12979	difference:    17%
+record 3	 prediction:    36317	actual:    43254	difference:   -16%
+record 4	 prediction:    12208	actual:    11848	difference:     3%
+record 5	 prediction:     2624	actual:     1261	difference:   108%
+record 6	 prediction:     9230	actual:    21880	difference:   -57%
+record 7	 prediction:    -1579	actual:     8062	difference:  -119%
+record 8	 prediction:    40172	actual:    46599	difference:   -13%
+record 9	 prediction:    -5177	actual:     3292	difference:  -257%
+record 10	 prediction:     6761	actual:    12404	difference:   -45%
+{'generations': 100, 'population_size': 300, 'breeding_rate': 0.4, 'crossover_rate': 0.8, 'mutation_rate': 0.15, 'mutation_range': 0.2, 'select_parents_stochastically': False}
+FITNESS - train_best: 852.11, train_mean: 4243.29, test_best: 249.02, test_mean: 1360.60
+FITNESS - train_best: 852.11, train_mean: 3089.10, test_best: 249.02, test_mean: 997.36
+FITNESS - train_best: 334.43, train_mean: 2306.12, test_best: 105.39, test_mean: 743.82
+FITNESS - train_best: 287.95, train_mean: 1725.07, test_best: 98.70, test_mean: 555.60
+FITNESS - train_best: 287.95, train_mean: 1315.95, test_best: 90.54, test_mean: 421.53
+FITNESS - train_best: 176.18, train_mean: 1005.88, test_best: 54.12, test_mean: 323.46
+FITNESS - train_best: 127.25, train_mean: 750.58, test_best: 32.87, test_mean: 243.15
+FITNESS - train_best: 92.95, train_mean: 554.02, test_best: 23.97, test_mean: 179.77
+FITNESS - train_best: 70.90, train_mean: 402.64, test_best: 17.76, test_mean: 132.19
+FITNESS - train_best: 58.15, train_mean: 297.99, test_best: 16.47, test_mean: 100.05
+FITNESS - train_best: 38.01, train_mean: 221.02, test_best: 12.95, test_mean: 74.98
+FITNESS - train_best: 38.01, train_mean: 155.75, test_best: 12.95, test_mean: 52.96
+FITNESS - train_best: 32.58, train_mean: 106.33, test_best: 11.73, test_mean: 35.48
+FITNESS - train_best: 27.53, train_mean: 80.14, test_best: 9.12, test_mean: 26.67
+FITNESS - train_best: 21.60, train_mean: 71.66, test_best: 7.40, test_mean: 23.67
+FITNESS - train_best: 21.60, train_mean: 65.47, test_best: 7.40, test_mean: 21.68
+FITNESS - train_best: 21.60, train_mean: 56.64, test_best: 7.40, test_mean: 18.90
+FITNESS - train_best: 20.15, train_mean: 49.58, test_best: 7.39, test_mean: 16.53
+FITNESS - train_best: 20.15, train_mean: 48.73, test_best: 6.60, test_mean: 16.01
+FITNESS - train_best: 17.61, train_mean: 42.37, test_best: 5.83, test_mean: 13.89
+FITNESS - train_best: 17.61, train_mean: 38.96, test_best: 5.83, test_mean: 12.74
+FITNESS - train_best: 17.61, train_mean: 36.95, test_best: 5.83, test_mean: 12.16
+FITNESS - train_best: 15.85, train_mean: 35.49, test_best: 5.21, test_mean: 11.65
+FITNESS - train_best: 15.85, train_mean: 33.78, test_best: 5.21, test_mean: 11.10
+FITNESS - train_best: 15.72, train_mean: 32.20, test_best: 5.11, test_mean: 10.54
+FITNESS - train_best: 15.72, train_mean: 30.22, test_best: 5.11, test_mean: 9.91
+FITNESS - train_best: 15.28, train_mean: 28.73, test_best: 5.11, test_mean: 9.49
+FITNESS - train_best: 14.30, train_mean: 27.17, test_best: 4.33, test_mean: 8.97
+FITNESS - train_best: 14.02, train_mean: 26.66, test_best: 4.33, test_mean: 8.73
+FITNESS - train_best: 13.94, train_mean: 25.29, test_best: 4.24, test_mean: 8.23
+FITNESS - train_best: 13.94, train_mean: 24.28, test_best: 4.24, test_mean: 7.98
+FITNESS - train_best: 13.94, train_mean: 25.18, test_best: 4.24, test_mean: 8.19
+FITNESS - train_best: 12.30, train_mean: 25.33, test_best: 3.54, test_mean: 8.31
+FITNESS - train_best: 12.30, train_mean: 25.00, test_best: 3.54, test_mean: 8.11
+FITNESS - train_best: 12.30, train_mean: 23.48, test_best: 3.54, test_mean: 7.57
+FITNESS - train_best: 12.30, train_mean: 21.13, test_best: 3.54, test_mean: 6.97
+FITNESS - train_best: 12.30, train_mean: 21.63, test_best: 3.54, test_mean: 7.05
+FITNESS - train_best: 10.90, train_mean: 21.07, test_best: 3.54, test_mean: 6.87
+FITNESS - train_best: 10.90, train_mean: 21.39, test_best: 3.54, test_mean: 6.97
+FITNESS - train_best: 10.90, train_mean: 20.50, test_best: 3.54, test_mean: 6.69
+FITNESS - train_best: 10.90, train_mean: 21.88, test_best: 3.40, test_mean: 7.11
+FITNESS - train_best: 10.90, train_mean: 20.28, test_best: 3.40, test_mean: 6.55
+FITNESS - train_best: 10.90, train_mean: 21.90, test_best: 3.40, test_mean: 7.08
+FITNESS - train_best: 10.90, train_mean: 20.10, test_best: 3.40, test_mean: 6.53
+FITNESS - train_best: 10.90, train_mean: 19.54, test_best: 3.40, test_mean: 6.33
+FITNESS - train_best: 10.90, train_mean: 19.10, test_best: 3.40, test_mean: 6.20
+FITNESS - train_best: 10.90, train_mean: 20.03, test_best: 3.40, test_mean: 6.49
+FITNESS - train_best: 10.51, train_mean: 19.95, test_best: 3.24, test_mean: 6.43
+FITNESS - train_best: 10.51, train_mean: 19.12, test_best: 3.24, test_mean: 6.15
+FITNESS - train_best: 10.51, train_mean: 18.23, test_best: 3.24, test_mean: 5.88
+FITNESS - train_best: 10.04, train_mean: 19.66, test_best: 3.21, test_mean: 6.31
+FITNESS - train_best: 10.04, train_mean: 18.05, test_best: 3.14, test_mean: 5.80
+FITNESS - train_best: 10.04, train_mean: 19.04, test_best: 3.14, test_mean: 6.16
+FITNESS - train_best: 10.04, train_mean: 19.48, test_best: 3.14, test_mean: 6.26
+FITNESS - train_best: 10.04, train_mean: 18.81, test_best: 3.14, test_mean: 6.05
+FITNESS - train_best: 10.04, train_mean: 18.18, test_best: 3.14, test_mean: 5.81
+FITNESS - train_best: 10.04, train_mean: 16.14, test_best: 3.14, test_mean: 5.23
+FITNESS - train_best: 10.04, train_mean: 16.45, test_best: 3.14, test_mean: 5.28
+FITNESS - train_best: 10.04, train_mean: 17.64, test_best: 3.14, test_mean: 5.70
+FITNESS - train_best: 10.04, train_mean: 16.54, test_best: 3.14, test_mean: 5.38
+FITNESS - train_best: 10.04, train_mean: 19.87, test_best: 3.14, test_mean: 6.37
+FITNESS - train_best: 10.04, train_mean: 16.29, test_best: 3.14, test_mean: 5.22
+FITNESS - train_best: 10.04, train_mean: 17.26, test_best: 3.14, test_mean: 5.58
+FITNESS - train_best: 10.04, train_mean: 17.11, test_best: 3.14, test_mean: 5.52
+FITNESS - train_best: 10.04, train_mean: 18.20, test_best: 3.14, test_mean: 5.83
+FITNESS - train_best: 10.02, train_mean: 17.56, test_best: 3.10, test_mean: 5.58
+FITNESS - train_best: 10.02, train_mean: 17.36, test_best: 3.10, test_mean: 5.61
+FITNESS - train_best: 10.02, train_mean: 18.87, test_best: 3.10, test_mean: 5.94
+FITNESS - train_best: 9.98, train_mean: 15.44, test_best: 3.10, test_mean: 4.98
+FITNESS - train_best: 9.81, train_mean: 17.42, test_best: 3.10, test_mean: 5.50
+FITNESS - train_best: 9.81, train_mean: 15.30, test_best: 3.10, test_mean: 4.84
+FITNESS - train_best: 9.81, train_mean: 16.06, test_best: 3.10, test_mean: 5.15
+FITNESS - train_best: 9.81, train_mean: 17.01, test_best: 3.10, test_mean: 5.41
+FITNESS - train_best: 9.81, train_mean: 16.35, test_best: 3.10, test_mean: 5.24
+FITNESS - train_best: 9.81, train_mean: 16.12, test_best: 3.10, test_mean: 5.12
+FITNESS - train_best: 9.81, train_mean: 16.16, test_best: 3.07, test_mean: 5.16
+FITNESS - train_best: 9.81, train_mean: 15.89, test_best: 3.07, test_mean: 5.08
+FITNESS - train_best: 9.80, train_mean: 17.05, test_best: 3.04, test_mean: 5.42
+FITNESS - train_best: 9.80, train_mean: 17.83, test_best: 3.04, test_mean: 5.68
+FITNESS - train_best: 9.80, train_mean: 16.82, test_best: 3.04, test_mean: 5.31
+FITNESS - train_best: 9.80, train_mean: 16.89, test_best: 3.04, test_mean: 5.39
+FITNESS - train_best: 9.64, train_mean: 15.84, test_best: 3.02, test_mean: 5.02
+FITNESS - train_best: 9.64, train_mean: 17.09, test_best: 3.02, test_mean: 5.41
+FITNESS - train_best: 9.64, train_mean: 15.57, test_best: 3.02, test_mean: 4.96
+FITNESS - train_best: 9.64, train_mean: 15.82, test_best: 2.99, test_mean: 5.02
+FITNESS - train_best: 9.64, train_mean: 14.51, test_best: 2.99, test_mean: 4.59
+FITNESS - train_best: 9.64, train_mean: 15.71, test_best: 2.99, test_mean: 4.99
+FITNESS - train_best: 9.64, train_mean: 16.17, test_best: 2.99, test_mean: 5.11
+FITNESS - train_best: 9.64, train_mean: 16.50, test_best: 2.99, test_mean: 5.24
+FITNESS - train_best: 9.64, train_mean: 16.56, test_best: 2.99, test_mean: 5.24
+FITNESS - train_best: 9.64, train_mean: 15.93, test_best: 2.99, test_mean: 5.08
+FITNESS - train_best: 9.64, train_mean: 16.55, test_best: 2.99, test_mean: 5.26
+FITNESS - train_best: 9.64, train_mean: 16.02, test_best: 2.99, test_mean: 5.10
+FITNESS - train_best: 9.64, train_mean: 14.55, test_best: 2.99, test_mean: 4.65
+FITNESS - train_best: 9.58, train_mean: 15.35, test_best: 2.99, test_mean: 4.95
+FITNESS - train_best: 9.58, train_mean: 16.95, test_best: 2.99, test_mean: 5.46
+FITNESS - train_best: 9.58, train_mean: 15.32, test_best: 2.99, test_mean: 4.84
+FITNESS - train_best: 9.58, train_mean: 14.62, test_best: 2.99, test_mean: 4.59
+FITNESS - train_best: 9.58, train_mean: 16.05, test_best: 2.99, test_mean: 5.09
+FITNESS - train_best: 9.58, train_mean: 16.37, test_best: 2.99, test_mean: 5.12
+record 1	 prediction:    19929	actual:     3227	difference:   517%
+record 2	 prediction:    15760	actual:    11840	difference:    33%
+record 3	 prediction:    27575	actual:     3537	difference:   679%
+record 4	 prediction:    66510	actual:    19361	difference:   243%
+record 5	 prediction:    40255	actual:    27808	difference:    44%
+record 6	 prediction:    26363	actual:     6640	difference:   297%
+record 7	 prediction:     5913	actual:     5415	difference:     9%
+record 8	 prediction:    15006	actual:     2709	difference:   453%
+record 9	 prediction:    29906	actual:     4564	difference:   555%
+record 10	 prediction:    20837	actual:     7742	difference:   169%
