@@ -1,6 +1,6 @@
 # Optimisation with Genetic Algorithms
 
-This repository contains a genetic algorithm applies in an optimisation problem for Deakin Artificial and Computational Intelligence PBL Task 4.
+This repository contains a genetic algorithm applied to an optimisation problem for Deakin Artificial and Computational Intelligence PBL Task 4.
 
 We found a modestly sized dataset from [Kaggle](https://www.kaggle.com/datasets) that contains information about individuals and medical insurance costs over a year for those individuals. A genetic algorithm has been built to optimise the weights in a linear algorithm for predicting insurance costs, using the data in the dataset.
 
@@ -9,6 +9,15 @@ DATA ATTRIBUTION: Miri Choi on Kaggle at https://www.kaggle.com/mirichoi0218/ins
 ## Solution Details
 
 TODO: technical details
+
+- genetic algorithms (evolution inspiration)
+- population initialization
+- breeding (stochastically weighted parent selection, vs fittest parent selection)
+- crossover (random single point)
+- mutation (multiple gene per chromosome)
+- fitness cost function (also for predictions)
+- hyperparameters and grid search
+- modest feature engineering
 
 ## Results
 
@@ -38,9 +47,9 @@ record 10	 prediction:    29506	actual:    41919	difference:   -29%
 ```
 _Example predictions generated across 10 random examples from the dataset, compared with actual values._
 
-A number of possibilities exist to explain the discrepancy between effective convergence towards a global minimum and the relatively poor predictions.
+A number of possible explanations exist to explain the discrepancy between effective convergence towards the global minimum and the relatively poor predictions.
 
-First, a linear algorithm may not be a good fit as a model for predicting this data. The relationship between the features in the dataset and the labels may be more complex. Second, the relatively small dataset may provide insufficient information to generate an accurate model. Third, the existing features might not be used in a sufficiently complex way to generate a good model (for example, feature crosses or higher order features are not used). Additional feature engineering might address the problem if this third issue is at play, but the purpose of this assignment was to develop an effective genetic algorithm for optimisation, not to solve the problem of predicting medical insurance costs.
+First, a linear algorithm may not be a good fit as a model for predicting insurance costs from this data. The relationship between the features in the dataset and the labels may be more complex. Second, the relatively small dataset may provide insufficient information to generate an accurate model. Third, the existing features might not be used in a sufficiently complex way to generate a good model (for example, feature crosses or higher order features are not used). Additional feature engineering might address the problem if this third issue is at play, but the purpose of this assignment was to develop an effective genetic algorithm for optimisation, not to solve the problem of predicting medical insurance costs. We believe successful convergence demonstrates this.
 
 Examples in this section were generated using the following hyperparameters:
 
