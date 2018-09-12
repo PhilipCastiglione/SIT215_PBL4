@@ -19,7 +19,7 @@ We performed minimal data massaging and feature engineering, opting only to map 
 * sex was mapped from a single feature of ["female", "male"] to two features, "sex0" (representing female) and "sex1" (representing male), with values of 0 or 1
 * smoker was similarly mapped from a single feature of ["yes", "no"] to two binary features
 * region was similarly mapped from a single feature of ["southwest", "southeast", "northwest", "northeast"] to four binary features
-* age, bmi and charges were each (individually) normalised using a [scikitlearn MinMaxScaler]([sklearn.preprocessing.MinMaxScaler — scikit-learn 0.19.2 documentation](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn-preprocessing-minmaxscaler))
+* age, bmi and charges were each (individually) normalised using a [scikitlearn MinMaxScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn-preprocessing-minmaxscaler)
 * children was retained as a discrete variable with range 0-5
 
 This minimal feature engineering was performed to provide a set of features over which a linear equation could conceivably applied, and to avoid common problems when using machine learning algorithms over non-normalised data with large scale variability.
