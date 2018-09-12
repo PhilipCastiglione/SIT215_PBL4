@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from src.genetic_algorithm import GeneticAlgorithm
@@ -29,9 +30,14 @@ class Driver:
 
         self.genetic_algorithm = GeneticAlgorithm(self.params, X_train, y_train, X_test, y_test)
         self.genetic_algorithm.fit()
-        # TODO: chart training results instead of using the debugging print method
-        self.genetic_algorithm.print_progress()
-        # self.genetic_algorithm.progress
+
+    # generate charts to display training progress over the train and test sets
+    def report(self):
+        # self.genetic_algorithm.print_progress() # debug
+        columns = ['train_min', 'train_mean', 'test_min', 'test_mean']
+        progress = pd.DataFrame(self.genetic_algorithm.training_progress, columns=columns)
+        progress.plot(logy=True, legend=True, title="Training progress: loss by generation")
+        plt.show()
 
     # generate predictions for a set of input values, transforming input to match
     # the feature set representation of a chromosome, and converting the prediction
@@ -48,6 +54,7 @@ class Driver:
 
         diffs = (predictions - labels) / labels * 100
 
+        print("Predictions:")
         for i in range(inputs.shape[0]):
             prediction = str(int(predictions[i]))
             label = str(int(labels[i]))

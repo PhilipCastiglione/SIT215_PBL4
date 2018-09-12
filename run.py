@@ -8,6 +8,7 @@ def single_run(params):
     driver = Driver(params, medical_cost.data)
 
     driver.train()
+    driver.report()
 
     inputs = medical_cost.data.sample(10)
     driver.predict(inputs)
@@ -52,8 +53,8 @@ if __name__ == '__main__':
         grid_search()
     else:
         params = {
-            "generations": 1000,
-            "population_size": 1000,
+            "generations": 200,
+            "population_size": 200,
             "breeding_rate": 0.3,
             "crossover_rate": 0.9,
             'mutation_rate': 0.1,
