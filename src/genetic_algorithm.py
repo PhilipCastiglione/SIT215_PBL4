@@ -40,7 +40,7 @@ class GeneticAlgorithm:
     # use to take the best chromosome in the current population (after training) to make
     # predictions over a set of features
     def predict(self, features):
-        best_chromosome_idx = self.fitnesses.idxmax()
+        best_chromosome_idx = self.fitnesses.idxmin()
         best_chromosome = self.population.iloc[best_chromosome_idx].values[0]
         predictions = np.dot(features, best_chromosome)
         return predictions
