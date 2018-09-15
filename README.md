@@ -83,16 +83,16 @@ However, in actual prediction, the generated linear equation does not perform te
 
 ```
 Predictions:
-record 1	 prediction:   -12055	actual:     4466	difference:  -369%
-record 2	 prediction:    27101	actual:    47496	difference:   -42%
-record 3	 prediction:     1489	actual:    10325	difference:   -85%
-record 4	 prediction:    27875	actual:    47291	difference:   -41%
-record 5	 prediction:    -2905	actual:     2362	difference:  -222%
-record 6	 prediction:   -18134	actual:    24671	difference:  -173%
-record 7	 prediction:    13765	actual:    13352	difference:     3%
-record 8	 prediction:    24571	actual:    46200	difference:   -46%
-record 9	 prediction:    -3914	actual:     7144	difference:  -154%
-record 10	 prediction:    29506	actual:    41919	difference:   -29%
+record 1	 prediction:     4482	actual:     2020	difference:   121%
+record 2	 prediction:    38509	actual:    47496	difference:   -18%
+record 3	 prediction:     5528	actual:     6933	difference:   -20%
+record 4	 prediction:    10260	actual:     9861	difference:     4%
+record 5	 prediction:     8547	actual:     6311	difference:    35%
+record 6	 prediction:    12362	actual:    12333	difference:     0%
+record 7	 prediction:    10709	actual:     6474	difference:    65%
+record 8	 prediction:     9694	actual:    10355	difference:    -6%
+record 9	 prediction:     2809	actual:     1621	difference:    73%
+record 10	 prediction:    16222	actual:     9432	difference:    71%
 ```
 _Example predictions generated across 10 random examples from the dataset, compared with actual values._
 
