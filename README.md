@@ -70,7 +70,7 @@ Hyperparameters were initially estimated and adjusted through development of the
 
 ## Results
 
-The results of the genetic algorithm for optimising the linear equation are mixed.
+The results of the genetic algorithm for optimising the linear equation are show below.
 
 The genetic algorithm successfully converges to a solution using the provided loss minimisation function:
 
@@ -79,7 +79,7 @@ _Training progress by generation (loss on a logarithmic scale)_
 
 For both the training and test sets, and for both the minimum loss (fittest chromosome) and average loss (average across population), loss starts out very high and clearly converges.
 
-However, in actual prediction, the generated linear equation does not perform terribly well:
+However, in actual prediction, the generated linear equation performs only moderately well:
 
 ```
 Predictions:
@@ -96,7 +96,7 @@ record 10	 prediction:    16222	actual:     9432	difference:    71%
 ```
 _Example predictions generated across 10 random examples from the dataset, compared with actual values._
 
-A number of possible explanations exist to explain the discrepancy between effective convergence towards the global minimum and the relatively poor predictions.
+A number of possible explanations exist to explain the discrepancy between effective convergence towards the global minimum and the modest accuracy of predictions.
 
 First, a linear algorithm may not be a good fit as a model for predicting insurance costs from this data. The relationship between the features in the dataset and the labels may be more complex. Second, the relatively small dataset may provide insufficient information to generate an accurate model. Third, the existing features might not be used in a sufficiently complex way to generate a good model (for example, feature crosses or higher order features are not used). Additional feature engineering might address the problem if this third issue is at play, but the purpose of this assignment was to develop an effective genetic algorithm for optimisation, not to solve the problem of predicting medical insurance costs. We believe successful convergence demonstrates this.
 
