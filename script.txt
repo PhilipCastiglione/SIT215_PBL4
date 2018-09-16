@@ -1,71 +1,75 @@
 # Title Screen
-Hi and welcome to our presentation of Problem Based Learning task 4: Optimisation with genetic algorithms. Our group consists of Lee and Phil and today we'll be demonstrating our implementation of a genetic algorithm that predicts how much a person's insurance will cost.
+
+Hi and welcome to our presentation of Problem Based Learning task 4: Optimisation with genetic algorithms. Our group consists of Lee and Phil and today we'll demonstrate our implementation of a genetic algorithm that optimises prediction of medical insurance costs.
 
 # How Genetics Algorithms Work
+
 Genetic Algorithms are an optimisation technique inspired by evolution and the concept of natural selection where a child receives a number of genes from each parent.
+
 In the algorithm's simplest form, data is encoded into a bit-string which represent genes in a chromosome.
+
 Then new generations are bred from the best performing chromosomes -or fittest- of the previous generation and the weakest chromosomes are removed.
+
 Other quirks of natural selection are included such as mutation of genes where a low probability of a random gene in the child chromosome is introduced.
+
 A crossover point is added to determine which genes are received from each parent chromosome, the selection stage of the algorithm is where the best performing chromosomes are chosen for breeding.
 
 # Skills Audit
+
 Firstly we met for a chat after reading the problem material and decided to undertake a skills audit based off the problem requirements identifying the core skills we would need to be able to complete the task. We then did some research into how to solve the problem and looked at other peoples completed solutions to find the best way to tackle the problem.
 
-
 # Solution Challenges
+
 Challenges for this task include finding a problem suitable for optimisation, and data for that problem. We also needed to figure out how to track our progress during training, to see if the algorithm was working and improve it.
 
-Genetic algorithms also require a dataset that can be represented in a chromosome such that genes can be independently manipulated by crossover and mutation without affecting other genes.
+Genetic algorithms require a dataset that can be represented in a chromosome such that genes can be independently manipulated by crossover and mutation without affecting other genes.
 
 Finally, genetic algorithms are quite complex to design and implement, including understanding what parts of the process are paraterisable and how to set those parameters.
 
 # Our Solution (text)
-We've discussed Genetic Algorithms generally, and some of the challenges associated with using them in optimisation problems.
 
-With this understanding front of mind, we set out to find a problem and a dataset we could apply a genetic algorithm to.
+After understanding the task and the domain we searched for a problem and a dataset we could apply a genetic algorithm to.
 
 We decided to try using a genetic algorithm to optimise the weights in a linear equation, which would be a simple model for predicting values from data.
 
-This approach let to encode a set of real valued weights as the genes in a chromosome, each of which represents the multiplication factor of a single variable in the linear equation.
+This approach let us encode a set of real valued weights as the genes in a chromosome, each representing the multiplication factor of a single variable in the linear equation.
 
 As an example, imagine we had a row of data with these values: 1, 0.5 and 2.
 
 We encode a chromosome as a row with the same shape of 3 columns containing floating point numbers.
 
-The linear equation can be generated and applied for prediction, each gene in the chromosome maps to the  multiplication factor for one of the data columns. You can see in this example, this chromosome would generate a linear equation that, when applied to the data, makes a prediction of the value 0.325.
+The resultant linear equation can be applied for prediction by applying each gene in the chromosome as the multiplication factor for one of the data columns. You can see in this example, this chromosome would generate a linear equation that can be applied to the data to make a prediction of 0.325.
 
-We found a dataset on Kaggle about medical insurance costs that included data for around 1300 individuals along with medical costs incurred over a fixed time period. The dataset appeared suitable for a linear equation and was modestly sized, so we chose this data for our task. Links and attribution for the data are provided in the GitHub repository associated with this presentation.
+We found a dataset on Kaggle about medical insurance costs including data for over 1300 individuals. The dataset appeared suitable for a linear equation and was modestly sized, so we chose this data for our task. Links and attribution for the data are provided in the GitHub repository associated with this presentation.
 
 # Our Solution (post-it notes)
-Now that we had a problem to solve and data, we started implementation of our Genetic Algorithm.
 
-There are four steps in the process that is the heart of our genetic algorithm.
+Now that we had a problem to solve and data, we started implementation of our Genetic Algorithm, which has 4 main steps.
 
-First, we prepared the data and initialised a population of chromosomes. We performed minimal data massaging and feature engineering, opting only to map categorical features into binary buckets so that we could apply a linear equation to the data, and to normalise continuous features and the labels to avoid some common training problems.
+First, we prepare the data and initialise a population of chromosomes. We perform minimal data massaging and feature engineering, only mapping categorical features into binary buckets so that we could apply a linear equation to the data, and normalising continuous values to avoid common training problems.
 
-We also split the data into test and train sets, so we could avoid overfitting.
+We also split the data into test and train sets to avoid overfitting.
 
-After initialising a population of random chromosomes, the next step is to select parents for breeding. We implemented two approaches to parent selection: simple selection of the fittest, and stochastic selection using fitness as a weighting.  Choice of approach is set by one of the hyper parameters to the algorithm.
+After initialising a population of random chromosomes, the next step is to select parents for breeding. We implemented two approaches to parent selection: selection of the fittest, and stochastic selection using fitness as a weighting. Choice of approach is set by one of the hyperparameters to the algorithm.
 
 After selection, parents are arbitrarily coupled for breeding. With an odd number of parents, the last parent becomes a hermaphrodite.
 
-Offspring are then produced from the parents, two per family. During offspring production, two processes take place: crossover and mutation.
+Two offspring are produced from each couple. During this, two processes take place: crossover and mutation.
 
-We implement random single point genetic crossover. Not all children necessarily involve crossover, the crossover rate is another hyperparameter. Where crossover occurs, children's genes are effectively a mix of their parents genes. One child gets the first parents genes up to a point, then the other parents after that (the other child gets the reverse).
+We implement random single point genetic crossover. Not all children involve crossover, the crossover rate is another hyperparameter. When crossover occurs, children's genes are a mix of their parents genes. One child gets the first parents genes up to the crossover point, then the other parents after that and the other child gets the reverse.
 
-Next, we implement per-gene random mutation of genes for each offspring, occurring at a provided mutation rate, which adjusts that genes value by a random amount within a provided mutation range. Both are algorithm hyperparameters.
+Next, we implement random mutation of genes for each offspring which adjusts a genes value by a random amount within a range. The mutation rate and range are algorithm hyperparameters.
 
-Finally, we cull the least fit chromosomes in the existing population and the next generation becomes the parents, the offspring, and those other genes that survived culling.
+Finally, we cull the weakest chromosomes, and the next generation becomes the parents, the offspring, and other genes that survived culling.
 
-It's also worth mentioning how we calculate fitness for our chromosomes.
-
-Fitness is calculated by using a chromosome to calculate predicted charges for each row of data in the training set, and computing the sum of squared differences against the actual labels for each row in the training set.
+To calculate fitness, we use a chromosome to calculate predicted medical costs for each row of data in the training set, and compute the sum of squared differences against the real costs for each row.
 
 Progress is tracked during training for later analysis.
 
 Additional detail on all of these steps is provided in the README in the GitHub repository.
 
 # Demo
+
 In this demo we'll show you the application we built that uses our genetic algorithm.
 
 The algorithm takes a few minutes to run, depending on hyperparameter settings, so we'll skip ahead a bit.
@@ -75,27 +79,31 @@ When the algorithm finishes, it generates a chart showing training progress in t
 We also generate a number of predictions from some random rows of the dataset and compare them to the actual labels, to get a sense of accuracy.
 
 # Code snippet 1
-We'll take a brief look at some code, but all the code is available for inspection in the GitHub repository.
+
+We'll take a brief look at some code, but all the code is available in the GitHub repository.
 
 Here's the fit function. You can see that there is a loop for the number of generations, and inside the loop we produce a new generation, update our fitnesses and progress.
 
 # Code snippet 2
+
 The next generation is produced by dividing the population  according to our rules of parent selection, breeding them to produce offspring, and merging the parents, offspring and survivors into the next generation.
 
 # Code snippet 3
+
 Breeding involves coupling the parents and producing offspring, which undergo the processes of crossover and mutation.
 
 # Limitations and constraints
-The prediction accuracy of the algorithm is pretty good, but not perfect. There are a few possible reasons why this might be the case even though the genetic algorithm successfully converges to a minimum.
 
-It's possible that the relationship between the features and the labels in the data is more complex than a linear equation can model. We chose not to spend additional time feature engineering, but feature crosses and higher order features might make some difference here. Second, the dataset was fairly small. More data might increase prediction accuracy.
+The prediction accuracy of the algorithm is pretty good, but not perfect. There are a few limitations that limit accuracy even though the algorithm successfully converges to a minimum.
 
-Regardless, we set out to build a genetic algorithm for optimisation, and we see that has clearly succeeded.
+The relationship between the features and the labels in the data might be more complex than a linear equation can model. We chose not to spend additional time feature engineering, but feature crosses and higher order features might make some difference here. Second, the dataset was fairly small so more data might increase prediction accuracy.
 
-Our genetic algorithm has a lot of hyperparameters. The number of generations, the size of the population, the breeding rate, the crossover rate, the mutation rate, the mutation range and whether to use stochastic parent selection. That's 7 in total. Optimising these hyper parameters was a task in itself and we ended up building a grid search for this process. However, grid search across a wide range of values for all of these hyper parameters would have been prohibitively expensive in terms of computation, so we spent some time hand tuning the grid search ranges and combinations during this process.
+Our genetic algorithm has a lot of hyperparameters. The number of generations, the size of the population, the breeding rate, the crossover rate, the mutation rate, the mutation range and whether to use stochastic parent selection. That's 7 in total. Optimising these hyperparameters was challenging and we ended up building a grid search for this process. Grid search across a range of values for all of these hyperparameters is computationally expensive, so we did some hand tuning of the grid search during this process.
 
 # References
-The references for the information we used to gather knowledge and insight on the subject matter and how to implement the algorithm are located here.
+
+The references for the information we used to gather knowledge and insight on the subject matter and how to implement the algorithm are provided.
 
 # Conclusion
-A link to the GitHub repository containing some working documents, instructions how to run the program, and code you saw in the presentation is provided in the video description. Thanks for watching.
+
+A link to the GitHub repository containing some working documents, a detailed readme, and all the code is provided here and in the video description. Thanks for watching.
