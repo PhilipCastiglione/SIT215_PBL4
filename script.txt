@@ -4,7 +4,7 @@ Hi and welcome to our presentation of Problem Based Learning task 4: Optimisatio
 # How Genetics Algorithms Work
 Genetic Algorithms are an optimisation technique inspired by evolution and the concept of natural selection where a child receives a number of genes from each parent.
 In the algorithm's simplest form, data is encoded into a bit-string which represent genes in a chromosome.
-Then new generations are bred from the best performing chromosomes -or fittest- of the previous generation and the others chromosomes are removed.
+Then new generations are bred from the best performing chromosomes -or fittest- of the previous generation and the weakest chromosomes are removed.
 Other quirks of natural selection are included such as mutation of genes where a low probability of a random gene in the child chromosome is introduced.
 A crossover point is added to determine which genes are received from each parent chromosome, the selection stage of the algorithm is where the best performing chromosomes are chosen for breeding.
 
@@ -13,7 +13,11 @@ Firstly we met for a chat after reading the problem material and decided to unde
 
 
 # Solution Challenges
+Challenges for this task include finding a problem suitable for optimisation, and data for that problem. We also needed to figure out how to track our progress during training, to see if the algorithm was working and improve it.
 
+Genetic algorithms also require a dataset that can be represented in a chromosome such that genes can be independently manipulated by crossover and mutation without affecting other genes.
+
+Finally, genetic algorithms are quite complex to design and implement, including understanding what parts of the process are paraterisable and how to set those parameters.
 
 # Our Solution (text)
 We've discussed Genetic Algorithms generally, and some of the challenges associated with using them in optimisation problems.
