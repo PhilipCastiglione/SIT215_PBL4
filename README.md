@@ -42,7 +42,7 @@ The size of the population is a hyperparameter. The genetic algorithm then proce
 
 ##### Parent Selection and Breeding
 
-We implement two seperate approaches to parent selection for breeding offspring in our Genetic Algorithm. In either case, the number of parents is defined as a ratio by a hyperparameter. The first approach is simple selection of the fittest parents to breed. The second approach is stochastic selection of parents, but weighted by their fitness so that generally fitter parents are more often selected. The first approach tends to produce quicker convergence, but the additional randomness of the second approach favours long-term convergence and allows surpassing of local minima due to narrowing  of the population and insufficient diversity. Which approach is used is set by a hyperparamter.
+We implement two seperate approaches to parent selection for breeding offspring in our Genetic Algorithm. In either case, the number of parents is defined as a ratio by a hyperparameter. The first approach is simple selection of the fittest parents to breed. The second approach is stochastic selection of parents, but weighted by their fitness so that generally fitter parents are more often selected. The first approach tends to produce quicker convergence, but the additional randomness of the second approach favours long-term convergence and allows surpassing of local minima due to narrowing  of the population and insufficient diversity. Which approach is used is set by a hyperparameter.
 
 When parents have been selected, they are arbitrarily coupled.
 
