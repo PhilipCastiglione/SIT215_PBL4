@@ -1,0 +1,38 @@
+# Title Screen
+Hi and welcome to our presentation of Problem Based Learning task 4: Optimisation with genetic algorithms. Our group consists of Lee and Phil and today we'll be demonstrating our implementation of a genetic algorithm that predicts how much a person's insurance will cost.
+
+# How Genetics Algorithms Work
+
+# Skills Audit
+Firstly we met for a chat after reading the problem material and decided to undertake a skills audit based off the problem requirements identifying the core skills we would need to be able to complete the task. We then did some research into how to solve the problem and looked at other peoples completed solutions to find the best way to tackle the problem.
+
+
+# Solution Challenges
+
+
+# Our Solution (text)
+
+
+# Our Solution (post-it notes)
+
+
+# Demo
+
+
+# Code snippet 1
+
+
+# Code snippet 2
+
+
+# Code snippet 3
+
+
+# Limitations and constraints
+
+
+# References
+The references for the information we used to gather knowledge and insight on the subject matter and how to implement the algorithm are located here.
+
+# Conclusion
+A link to the GitHub repository containing some working documents, instructions how to run the program, and code you saw in the presentation is provided in the video description. Thanks for watching.
